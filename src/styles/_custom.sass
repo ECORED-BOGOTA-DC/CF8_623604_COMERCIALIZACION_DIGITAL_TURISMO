@@ -2,13 +2,87 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: -15%
+    right: 220%
+    min-width: 80px
+    width: 80px
+    @media (min-width: 1400px)
+      top: 0%
+      right: 193%
+      min-width: 80px
+      width: 80px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 60%
+    right: 71%
+    min-width: 148px
+    width: 148px
+    @media (min-width: 1400px)
+      min-width: 185px
+      width: 185px
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 31%
+    right: 86%
+    min-width: 80px
+    width: 80px
+    @media (min-width: 1400px)
+      min-width: 95px
+      width: 95px
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 2%
+    right: 59%
+    min-width: 90px
+    width: 90px
+    @media (min-width: 1400px)
+      min-width: 114px
+      width: 114px
+  &-5
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 0%
+    right: 12%
+    min-width: 90px
+    width: 90px
+    @media (min-width: 1400px)
+      min-width: 136px
+      width: 136px
+  &-6
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 28%
+    right: 7%
+    min-width: 100px
+    width: 100px
+    @media (min-width: 1400px)
+      min-width: 153px
+      width: 153px
+  &-7
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 5%
+    min-width: 72px
+    width: 72px
+    @media (min-width: 1400px)
+      min-width: 91px
+      width: 91px
+  &-8
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 90%
+    right: 220%
+    min-width: 60px
+    width: 60px
+    @media (min-width: 1400px)
+      top: 50%
+      right: 196%
+      min-width: 80px
+      width: 80px
 
 
 @keyframes float1
@@ -17,3 +91,29 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal
+  .banner-principal__row
+    min-height: 505px
+  .banner-principal__img
+    padding: 0 !important
+    @media (min-width: 1400px)
+      margin-top: auto
+      width: 612px
+    img
+      width: 612px
+      margin-left: auto
+.contenedor-principal
+  .seccion-principal
+    .curso-main-container
+      .banner-interno__fondo
+        background-image: url("../assets/curso/portada/img-bg-top.jpg") !important
+        background-size: cover
+        background-position: left
+      .banner-interno__titulo
+        padding-top: 5.3rem !important
+        padding-bottom: 5.3rem !important
+      .titulo-principal
+        .titulo-principal__numero
+          span
+            color: black
