@@ -525,9 +525,336 @@
             p Busca facilitar el acceso universal a Internet. Es por esto que en el momento de diseñar y programar el sitio web la empresa turística debe adaptarlo sin importar las limitaciones físicas, intelectuales o sensoriales de los usuarios.
             p.mb-0 La WAI (<em>Web Accessibility Initiative</em>) desde 1999 emite directrices estandarizadas y reconocidas a nivel internacional para crear contenidos y páginas más accesibles que se agrupan en los siguientes aspectos:
           img.mb-4.mb-lg-auto.mx-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-33.png" style="max-width: 336px; margin-top: -5%" alt="imagen decorativa")
+    
+
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-md-6.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema1/img-34.jpg", alt="imagen decorativa")
+          .crd_hover_txt--body
+            h4.mb-3.text-center(style="min-height: 43px") Accesibilidad del contenido web (WCAG)
+            p.mb-0 Pautas para crear contenidos accesibles y compatibles con todo tipo de tecnologías de apoyo, dispositivos, navegadores y lenguajes de programación. Contemplan el uso de letras de gran tamaño, diseños adaptativos, textos predictivos, asistentes a la navegación, etc.
+
+      .col-xl-4.col-md-6.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema1/img-35.jpg", alt="imagen decorativa")
+          .crd_hover_txt--body
+            h4.mb-3.text-center(style="min-height: 43px") Accesibilidad de las herramientas de autor (ATAG)
+            p.mb-0 Normas que atañen al desarrollo de los programas y aplicaciones que se utilizan para crear, gestionar y publicar los contenidos digitales. Estas herramientas abarcan los procesadores de textos, los gestores de bases de datos, los programas de edición de vídeo, etc.
+
+      .col-xl-4.col-md-6.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema1/img-36.jpg", alt="imagen decorativa")
+          .crd_hover_txt--body
+            h4.mb-3.text-center(style="min-height: 43px") Accesibilidad de los agentes de usuario (UAAG)
+            p.mb-0 Pautas destinadas al desarrollo de los programas necesarios para interactuar con el contenido web, como los navegadores, los reproductores multimedia, los lectores de pantalla, etc.
+
+    p.mb-5 La WAI clasifica también las páginas web según la accesibilidad de los contenidos, estableciendo los siguientes niveles (Iberdrola, s.f.):
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 4.
+      span Ventajas de la maqueta
+    img.mb-5.d-none.d-md-flex(src="@/assets/curso/temas/tema1/img-37.svg")
+    img.mx-auto.mb-5.d-flex.d-md-none(src="@/assets/curso/temas/tema1/img-37_1.svg" style="max-width: 300px")
+
+    .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-2.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3  ¿Qué es la accesibilidad web?
+              p Con el fin de tener mayor conocimiento sobre la accesibilidad web, se invita a ver el siguiente video.
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=gQIKQO41pME" target="_blank")
+                span.pe-4 Ver   
+                i.fas.fa-link
+
+    .d-flex.mb-5
+      h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Posicionamiento web
+
+    .container-100.d-flex.flex-wrap.align-items-center.py-4.mb-5(style="background-color: #E8F5FE; box-shadow: 0 3px 6px 3px #00000010")
+      img(src="@/assets/curso/temas/tema1/img-38.svg" style="max-width: 85px" alt="imagen decorativa")
+      p.col-md.mb-0.ps-md-4 Tener un buen posicionamiento web ofrece una ventaja cuando de aumentar las ventas en línea se trata, es por esto que las empresas turísticas desarrollan estrategias para atraer a los usuarios cualificados por medio del tráfico orgánico, lo que se conoce como SEO (<em>Search Engine Optimization</em> u optimización de motores de búsqueda). Se invita a ver el siguiente recurso sobre las estrategias SEO:
+
+    figure.col-xl-10.mx-auto(data-aos="fade-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-2.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3  Buscadores
+              p Con el fin de tener mayor conocimiento sobre buscadores, se invita a ver el siguiente video.
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=99G6_y2TZPo" target="_blank")
+                span.pe-4 Ver   
+                i.fas.fa-link
+    p.mb-5 A continuación, se presentan algunos consejos para mejorar el posicionamiento del sitio de web de comercialización de experiencias turísticas en Google (Capella, 2020):
+
+    .tarjeta.px-5.py-3.mb-5(style="background-color: #FFF7E3")
+      SlyderA(tipo="b")
+        .row.justify-content-start.align-items-start.py-5
+          .col-lg-5.mb-4.mb-lg-0.pt-4.pt-0.position-relative
+              h4.mb-4 Optimizar la página web de la empresa turística
+              ul.lista-ul
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  | Publicar imágenes y videos de poco peso.
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  | Evitar duplicidades.
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  | Introducir el sitemap.xml y el archivo robots.txt.
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  p.mb-0 Asegurar que sea responsive y cuenten con AMP (<em>Accelerated Mobile Pages</em>).
+              p.mb-0 Estas son algunas herramientas que se pueden utilizar para identificar cuáles son los aspectos que la empresa turística que debe mejorar en el sitio web: 
+                br
+                br
+                |<em>PageSpeed, Insights y GTMetrix.</em>
+
+          .col-6.col-lg-6.mx-auto
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-39.svg' style="max-width: 544px")
+      
+        .row.justify-content-start.align-items-start.py-5
+          .col-lg-6.mb-4.mb-lg-0.pt-4.pt-0.position-relative
+              h4.mb-4 Escribir sobre lo que buscan los usuarios en el buscador
+              P La empresa turística debe definir una estrategia de contenido y uno de los aspectos a tener en cuenta es escribir sobre lo que escriben o buscan los usuarios en Google.
+              P Algunas herramientas que se pueden utilizar para identificar lo que los usuarios están escribiendo son:
+              img(src='@/assets/curso/temas/tema1/img-40.svg' style="max-width: 450px")
+
+          .col-6.col-lg-6.mx-auto
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-41.svg' style="max-width: 406px")
         
+        .row.justify-content-start.align-items-start.py-5
+          .col-lg-6.mb-4.mb-lg-0.pt-4.pt-0.position-relative
+              h4.mb-4 Crear contenido de valor
+              P La empresa turística debe tener en cuenta el contenido que publica en su sitio web para que cuando el buscador de Google haga el rastreo, pueda identificar de qué se trata el contenido relevante para los usuarios. Este contenido debe ser:
+              img(src='@/assets/curso/temas/tema1/img-42.svg' style="max-width: 565px")
+              P Adicionalmente, la empresa debe estar informada sobre las actualizaciones de los algoritmos del buscador de Google, para poder identificar los ajustes que se deben realizar en su estrategia de contenidos.
 
+          .col-6.col-lg-6.mx-auto
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-43.svg' style="max-width: 503px")
 
+        .row.justify-content-start.align-items-start.py-5
+          .col-lg-5.mb-4.mb-lg-0.pt-4.pt-0.position-relative
+              h4.mb-4 Incluir recursos gráficos en el sitio web
+              P Es importante que la empresa turística incluya recursos gráficos en su sitio web, ya que permiten mostrar mejor el tipo de experiencias que se comercializan, crean una experiencia de usuario positiva y Google valora las páginas que utilizan este tipo de recursos.
+              ul.lista-ul
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  | Video.
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  | Imágenes.
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  | Infografías.
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  p.mb-0 Gráficos.
+
+          .col-6.col-lg-6.mx-auto
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-44.svg' style="max-width: 524px")
+        
+        .row.justify-content-start.align-items-start.py-5
+          .col-lg-5.mb-4.mb-lg-0.pt-4.pt-0.position-relative
+              h4.mb-4 Incentivar a los usuarios a interactuar en el sitio web
+              P La empresa turística podría incentivar a que los usuarios interactúen con el sitio web por medio de comentarios o resolviendo dudas sobre el contenido publicado. Estos son algunas estrategias que pueden ayudar:
+              ul.lista-ul
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  | Incluir sección de opiniones o comentarios.
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  p Publicar <em>blog</em> con contenido fácil de compartir (redes sociales, correo electrónico, WhatsApp).
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  | Incluir botones CTA para descargar contenido, suscribirse, más información, etc.
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  p.mb-0 Tener sección de preguntas frecuentes e invitar a los usuarios a realizar más preguntas.
+
+          .col-6.col-lg-6.mx-auto
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-45.svg' style="max-width: 544px")
+        
+        .row.justify-content-start.align-items-start.py-5
+          .col-lg-5.mb-4.mb-lg-0.pt-4.pt-0.position-relative
+              h4.mb-4 Utilizar links gratuitos que lleven tráfico a la página web de la empresa turística
+              P Es conveniente que la empresa turística inicialmente incluya enlaces en redes sociales por medio de los comentarios en sitios web externos que lleven tráfico hacia el propio sitio web. Esto permite que Google valore ese tráfico como un punto extra a la hora de posicionar la página web.
+              ul.lista-ul
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  | Incluir sección de opiniones o comentarios.
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  p.mb-0 Publicar <em>blog</em> con contenido fácil de compartir (redes sociales, correo electrónico, WhatsApp).
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  | Incluir botones CTA para descargar contenido, suscribirse, más información, etc.
+                li.d-flex.mb-0
+                  .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
+                  p.mb-0 Tener sección de preguntas frecuentes e invitar a los usuarios a realizar más preguntas.
+
+          .col-6.col-lg-6.mx-auto
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-46.svg' style="max-width: 520px")
+        
+        .row.justify-content-start.align-items-start.py-5
+          .col-lg-6.mb-4.mb-lg-0.pt-4.pt-0.position-relative
+              h4.mb-4 Indexar lo que se quiera posicionar
+              P La empresa turística debe definir el contenido que no quiere posicionar y colocarlo en los buscadores en no indexan, para evitar que el robot de Google pierda el tiempo en secciones de la página que no son de su interés, como por ejemplo, las páginas de contacto o política de privacidad.
+              h5.mb-4 Fidelizar usuarios y conseguir tráfico recurrente
+              P Fidelizar a usuarios, conseguir suscriptores y haga que vuelvan una y otra vez a su web. De este modo conseguirá visitas recurrentes y este factor "<em>branding</em>" es una de las cosas más premiadas por los buscadores hoy en día.
+
+          .col-6.col-lg-6.mx-auto
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-47.svg' style="max-width: 344px")
+
+    p.mb-5 Estimado aprendiz, para profundizar sobre la aplicación de SEO en una estrategia de marketing online puede revisar el siguiente material:
+
+    .tarjeta.color-primario.p-3.col-xl-10.mx-auto
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-2.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3  Cómo posicionar en turismo | SEO en turismo
+              p Con el fin de tener mayor conocimiento sobre cómo posicionar en turismo | SEO en turismo, se invita a ver el siguiente video.
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=UPySDhEI0rU" target="_blank")
+                span.pe-4 Ver   
+                i.fas.fa-link
+
+    Separador
+    .titulo-segundo.color-acento-contenido
+      h2#t_1_2 1.2. Alojamiento (<em>hosting</em>) y dominio web 
+
+    .container-titulo.mb-5
+      img(src="@/assets/curso/temas/tema1/img-48.svg" style="max-width: 78px; width: 78px" alt="imagen decorativa")
+      h3 El <em>hosting</em> (alojamiento) 
+    
+    p.mb-5 Se refiere al servicio que permite que el sitio web de la empresa turística siempre esté en línea o disponible, adicionalmente en este servicio se puede alojar otro tipo de información, como por ejemplo, aplicaciones, correos electrónicos, bases de datos, etc. Existen tres tipos de hosting, se invita a revisar el siguiente recurso para conocerlos:
+
+    .d-flex.flex-wrap.justify-content-center.mb-5
+      .col-xl-4.col-md-6.px-md-2.mb-3
+        .tarjeta.p-4(style="background-color: #FFF4D9")
+          img.mb-2(src="@/assets/curso/temas/tema1/img-49.svg" style="width: 149px;" alt="imagen decorativa")
+          h3.mb-4 <em>Hosting</em> compartido
+          p.mb-0 El Cliente comparte el servicio y el <em>Hardware</em> con otros clientes. Son servicios muy económicos porque se compensa costo con volumen de clientes por servidor. No es un servicio fácilmente escalable.
+      
+      .col-xl-4.col-md-6.px-md-2.mb-3
+        .tarjeta.p-4(style="background-color: #FFF4D9")
+          img.mb-2(src="@/assets/curso/temas/tema1/img-50.svg" style="width: 149px;" alt="imagen decorativa")
+          h3.mb-4 <em>Cloud Hosting</em> 
+          p.mb-0 Es la nueva tecnología que  reemplaza el modelo tradicional de <em>Hosting</em>. Tiene asignación dedicada de <em>Hardware</em> por lo cual el Cliente no se afecta por malos vecinos. Es una tecnología que SI permite escalabilidad.
+      
+      .col-xl-4.col-md-6.px-md-2.mb-3
+        .tarjeta.p-4(style="background-color: #FFF4D9")
+          img.mb-2(src="@/assets/curso/temas/tema1/img-51.svg" style="width: 149px;" alt="imagen decorativa")
+          h3.mb-4 <em>Hosting</em> Delicado
+          p.mb-0 El Cliente no comparte el servicio, ni los recursos de <em>Hardware</em> con nadie más. Recomendado cuando al Cliente le preocupa la seguridad y cuando requiere un mejor nivel de servicio. Permite escalabilidad.
+
+    .container-titulo.mb-5
+      img(src="@/assets/curso/temas/tema1/img-48.svg" style="max-width: 78px; width: 78px" alt="imagen decorativa")
+      h3 El dominio web
+    
+    .container-100.d-flex.flex-wrap.align-items-center.py-4.mb-5(style="background-color: #E8F5FE; box-shadow: 0 3px 6px 3px #00000010")
+      img(src="@/assets/curso/temas/tema1/img-53.svg" style="max-width: 85px" alt="imagen decorativa")
+      p.col-md.mb-0.ps-md-4 Es la dirección del sitio web. Un navegador necesita un nombre de dominio para dirigirse a la página web y funciona como un atajo para llegar al servidor que aloja la información del sitio web de la empresa turística. Un dominio de Internet se forma a partir de dos elementos principales, el nombre del sitio web, por ejemplo, Despegar y la extensión del dominio .com.
+    
+    .tarjeta.color-primario.p-3.col-xl-10.mx-auto
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-2.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3  ¿Qué es un dominio y un <em>hosting</em>?
+              p Con el fin de tener mayor conocimiento sobre qué es un dominio y un <em>hosting</em>, se invita a ver el siguiente video.
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=W2Yrj0h52D4" target="_blank")
+                span.pe-4 Ver   
+                i.fas.fa-link
+
+    Separador
+    .titulo-segundo.color-acento-contenido
+      h2#t_1_3 1.3. Certificados de seguridad
+    
+    .d-flex.flex-wrap.mb-5
+      .col-lg-6.pe-lg-4.order-2.order-lg-1
+        p Cuando el sitio web de la empresa turística cuenta con un certificado de seguridad web está generando confianza y credibilidad en sus usuarios. Contar con estos certificados es importante sobre todo las redes sociales, las tiendas <em>online</em> o cuando se piden datos bancarios para hacer compras en línea.
+        .cajon.color-primario.p-4.mb-4(style="background-color: #FFF7E5")
+          p.mb-0 Los certificados brindan seguridad en la conexión entre los dispositivos y el servidor que aloja el sitio web de la empresa turística. El SSL (<em>Secure Sockets Layer</em> o capa de puertos seguros) es una forma de cifrar la información desde el navegador del dispositivo hasta que es recibida por el servidor.
+
+      img.order-1.order-lg-2.col-lg-6.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-54.jpg" style="max-width: 610px")
+
+    p.mb-5 En este sentido, es importante señalar que según (Cabrera, 2017) existen 3 tipos de SSL:
+
+    .col-12.col-lg-9.mx-xl-auto.col-xl-8.position-relative.d-flex.flex-wrap.mb-5
+      .avatar
+        figure
+          img(src="@/assets/curso/temas/tema1/img-58.svg", alt="alt").img250
+      .crd.crd--avatarHorizontal.py-4
+        .decorador-right(style="background-color: #50A3F3")
+        .row.align-items-center
+          .col-auto
+            figure
+              img(src="@/assets/curso/temas/tema1/img-55.svg" alt="alt").img100
+          .col.pe-4
+            h5 Certificados con validación de dominio 
+            p En este SSL la autoridad certificadora revisa la propiedad del dominio del solicitante y no revisa la identidad de la empresa.
+      .crd.crd--avatarHorizontal.py-4
+        .decorador-right(style="background-color: #FFB338")
+        .row.align-items-center
+          .col-auto
+            figure
+              img(src="@/assets/curso/temas/tema1/img-56.svg" alt="alt").img100
+          .col.pe-4
+            h5 Certificados con validación de empresa 
+            p En este tipo de SSL es necesario validar la propiedad del dominio y presentar documentos legales de la empresa. El usuario final puede ver la información de la empresa dando clic en el candado de la barra de navegación.
+      .crd.crd--avatarHorizontal.py-4
+        .decorador-right(style="background-color: #B1DE19")
+        .row.align-items-center
+          .col-auto
+            figure
+              img(src="@/assets/curso/temas/tema1/img-57.svg" alt="alt").img100
+          .col.pe-4
+            h5 Certificados con validación de empresa ampliada
+            p Con este SSL se aumenta el grado de confianza del usuario, para obtener un SS de este tipo es necesario validar de forma más profunda los datos de la empresa.
+
+    .tarjeta.color-primario.p-3.col-xl-10.mx-auto
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-2.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3 Cómo funciona un certificado de seguridad SSL TLS
+              p Con el fin de tener mayor conocimiento sobre Qué y cómo funciona un certificado de seguridad SSL TLS, se invita a ver el siguiente video.
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=tHhFQaurGAg" target="_blank")
+                span.pe-4 Ver   
+                i.fas.fa-link
 </template>
 
 <script>
@@ -549,4 +876,30 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 3%
+    right: 0
+    width: calc( 100% - 90px)
+    height: 94%
+    background-color: #F2F2F2
+  .decorador-right
+    position: absolute
+    top: 3%
+    right: 0
+    width: 33px
+    height: 94%
+  @media (max-width: 1000px)
+    padding-right: 2rem
+.avatar
+  right: -10rem
+</style>
