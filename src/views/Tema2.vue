@@ -277,7 +277,7 @@
       img.ps-lg-2.order-1.order-lg-2.col-lg-6.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-17.svg" style="max-width: 513px" alt="imagen decorativa")
 
     .d-flex.mb-5
-      h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Site centric y User centric
+      h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") <em>Site centric</em> y <em>User centric</em>
     
     .container-titulo.mb-5
       img(src="@/assets/curso/temas/tema2/img-18.svg" style="max-width: 78px; width: 78px" alt="imagen decorativa")
@@ -329,8 +329,58 @@
             p Adicionalmente, puede utilizar el remarketing o <em>retargeting</em> para enviar nuevamente información de mercadeo para una persona que demostró interés en el sitio web. Las <em>cookies</em> recopilan información sobre los usuarios y hacen que reciba información sobre el sitio web de comercialización de experiencias turísticas mediante cookies de terceros. Estos son algunas de las ventajas de utilizar cookies en las estrategias de mercadeo digital (Content, 2019):
           img.mb-4.mb-lg-auto.mx-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema2/img-24.png" style="max-width: 336px; margin-top: -5%" alt="imagen decorativa")
 
+    .container-100.d-flex.flex-wrap.mb-5.pt-5(style="background: linear-gradient(0deg, rgba(233,246,252,1) 0%, rgba(255,255,255,1) 100%);")
+      .titulo-sexto.color-acento-contenido
+        h5 Figura 16.
+        span Ventajas de utilizar <em>cookies</em> en las estrategias de mercadeo digital
+      .col-xl-10.mx-auto.mb-5
+        img(src="@/assets/curso/temas/tema2/img-25.svg" alt="imagen decorativa")
 
+    .d-flex.mb-5
+      h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Herramientas de analítica web
+    p.mb-5 Permiten analizar tendencias y comportamientos recurrentes en el tiempo en un sitio web, datos que permiten tomar decisiones para, en este caso, realizar acciones que permitan posicionar una marca, a continuación, se presentan algunas de las herramientas de analítica web y lo que la empresa turística podría hacer con cada una de ellas (Bello, s.f.):
 
+    .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-2.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3 Tabla de herramienta analítica web
+              p Con el fin de tener mayor conocimiento se invita a descargar documento word llamado 2.1.10. Tabla herramientas de analítica web.
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/OKEst_2.1.10_tabla_herramientas_de_analitica_web.docx')" target="_blank")
+                span.pe-4 Ver   
+                i.fas.fa-link
+    
+    .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-2.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3 Libro analítica web 2.0
+              p Con el fin de tener mayor conocimiento se invita a descargar libro Analítica Web 2.0 Avinash Kaushik
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Analitica_Web_2.0_Avinash_Kaushik.pdf')" target="_blank")
+                span.pe-4 Ver   
+                i.fas.fa-link
+    
+    .tarjeta.color-primario.p-3.col-xl-10.mx-auto
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-2.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3 7 herramientas de analítica web
+              p Con el fin de tener mayor conocimiento sobre las 7 herramientas de analítica web que debe usar en su sitio web, se invita a ver el siguiente video.
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=s4p0CSECFOk" target="_blank")
+                span.pe-4 Ver   
+                i.fas.fa-link
 
 </template>
 
