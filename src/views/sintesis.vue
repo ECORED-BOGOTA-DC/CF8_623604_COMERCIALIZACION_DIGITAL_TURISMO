@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Muestra mapa conceptual  con síntesis del desarrollo del componente de formación donde  el tema central son las bases de arquitectura y analítica web, desarrollando dos temas  (Analítica web y pagina web) con los respectivos temas de cada uno de los conceptos estudiados en el curso")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

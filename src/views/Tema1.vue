@@ -2,26 +2,26 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Arquitectura web
     
     .container-100.d-flex.flex-wrap.mb-5.pt-5(style="background: linear-gradient(180deg, rgba(233,246,252,1) 0%, rgba(255,255,255,1) 100%);")
-      .col-lg-6.pe-lg-4.order-2.order-lg-1
+      .col-lg-6.pe-lg-4.order-2.order-lg-1(data-aos="fade-right")
         .cajon.color-acento-botones.p-4.mb-4(style="background-color: #D6ECFA")
           p.mb-0 Hace referencia a la forma en la cual se establece la jerarquía de la información, la estructura y las categorías que conforman el sitio de Internet de la empresa turística. Una adecuada arquitectura mejora el funcionamiento del sitio, los usuarios y clientes potenciales tienen una buena experiencia en la navegación y el sitio es más fácil de rastrear para ayudar en el posicionamiento orgánico en los buscadores.
         p A continuación, se presenta una serie de aspectos que se deben tener en cuenta en la arquitectura web de comercialización de experiencias turísticas:
 
-      img.order-1.order-lg-2.col-lg-6.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 559px")
+      img.order-1.order-lg-2.col-lg-6.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 559px" data-aos="fade-left" alt='Imagen decorativa')
     
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4" data-aos="fade-left")
       div(style="overflow: hidden; padding-top: 60px; padding-bottom: .4rem")
         .tarjeta.mt-auto.d-flex.flex-wrap(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-slyder.png')})`}"
           style="background-repeat: no-repeat; background-position: left;"
         )
-          img.mx-auto(src='@/assets/curso/temas/tema1/slyF-1.svg' style="max-width: 132px; margin-top: -65px" alt='imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema1/slyF-1.svg' style="max-width: 132px; margin-top: -65px" alt='Imagen decorativa')
           h4.p-4.text-center.w-100 Lenguaje e idioma
           p.mb-4.text-center.px-4 Definir el lenguaje y el idioma del sitio de internet.
       
@@ -30,7 +30,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-slyder.png')})`}"
           style="background-repeat: no-repeat; background-position: left;"
         )
-          img.mx-auto(src='@/assets/curso/temas/tema1/slyF-2.svg' style="max-width: 132px; margin-top: -65px" alt='imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema1/slyF-2.svg' style="max-width: 132px; margin-top: -65px" alt='Imagen decorativa')
           h4.p-4.text-center.w-100 Secciones principales
           p.mb-4.text-center.px-4 Definir las secciones principales del sitio web.
       
@@ -39,7 +39,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-slyder.png')})`}"
           style="background-repeat: no-repeat; background-position: left;"
         )
-          img.mx-auto(src='@/assets/curso/temas/tema1/slyF-3.svg' style="max-width: 132px; margin-top: -65px" alt='imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema1/slyF-3.svg' style="max-width: 132px; margin-top: -65px" alt='Imagen decorativa')
           h4.p-4.text-center.w-100 Categorías y subcategorías
           p.mb-4.text-center.px-4 Establecer las categorías y subcategorías interiores.
       
@@ -48,7 +48,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-slyder.png')})`}"
           style="background-repeat: no-repeat; background-position: left;"
         )
-          img.mx-auto(src='@/assets/curso/temas/tema1/slyF-4.svg' style="max-width: 132px; margin-top: -65px" alt='imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema1/slyF-4.svg' style="max-width: 132px; margin-top: -65px" alt='Imagen decorativa')
           h4.p-4.text-center.w-100 Páginas principales
           p.mb-4.text-center.px-4 Definir las páginas principales y más destacadas.
       
@@ -57,7 +57,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-slyder.png')})`}"
           style="background-repeat: no-repeat; background-position: left;"
         )
-          img.mx-auto(src='@/assets/curso/temas/tema1/slyF-5.svg' style="max-width: 132px; margin-top: -65px" alt='imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema1/slyF-5.svg' style="max-width: 132px; margin-top: -65px" alt='Imagen decorativa')
           h4.p-4.text-center.w-100 Rutas de acceso
           p.mb-4.text-center.px-4 Identifican las rutas de acceso de los usuarios y clientes potenciales.
       
@@ -66,21 +66,21 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-slyder.png')})`}"
           style="background-repeat: no-repeat; background-position: left;"
         )
-          img.mx-auto(src='@/assets/curso/temas/tema1/slyF-6.svg' style="max-width: 132px; margin-top: -65px" alt='imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema1/slyF-6.svg' style="max-width: 132px; margin-top: -65px" alt='Imagen decorativa')
           h4.p-4.text-center.w-100 Contenido del sitio
           p.mb-4.text-center.px-4 Establecer el contenido del sitio y cada sección.
     
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Arquitectura web
               p Con el fin de tener mayor conocimiento sobre la forma de organizar bien los contenidos en una página web se invita a ver el siguiente video.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=VSXdCHSFHXM&t=30s" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=VSXdCHSFHXM&t=30s" target="_blank" data-aos="fade-left")
                 span.pe-4 ver 
                 i.fas.fa-link
 
@@ -88,100 +88,100 @@
     .titulo-segundo.color-acento-contenido
       h2#t_1_1 1.1. Página web
     
-    p.mb-5 Básicamente son documentos a los que se puede acceder desde un navegador con acceso a Internet, estos documentos contienen información en diferentes formatos como, por ejemplo, audio, video y texto.
+    p.mb-5(data-aos="fade-right") Básicamente son documentos a los que se puede acceder desde un navegador con acceso a Internet, estos documentos contienen información en diferentes formatos como, por ejemplo, audio, video y texto.
 
     PasosA.color-acento-contenido.mb-5.col-lg-10.col-xl-8.mx-auto(tipo="n")
       .row
-        .col-md.pe-md-4.order-2.order-md-1
+        .col-md.pe-md-4.order-2.order-md-1(data-aos="fade-right")
           h3 En 1992
           p aparecen las primeras páginas web. Estas páginas eran estáticas y se basaban en colores e imágenes.
-        img.px-0.mx-auto.mb-4.my-md-auto.order-1.order-md-2(src='@/assets/curso/temas/tema1/img-3.svg' style="max-width: 125px" alt='imagen decorativa')
+        img.px-0.mx-auto.mb-4.my-md-auto.order-1.order-md-2(src='@/assets/curso/temas/tema1/img-3.svg' style="max-width: 125px" alt='Imagen decorativa' data-aos="fade-left")
       
       .row
-        img.px-0.mx-auto.mb-4.my-md-auto(src='@/assets/curso/temas/tema1/img-4.svg' style="max-width: 125px" alt='imagen decorativa')
-        .col-md.ps-md-4
+        img.px-0.mx-auto.mb-4.my-md-auto(src='@/assets/curso/temas/tema1/img-4.svg' style="max-width: 125px" alt='Imagen decorativa' data-aos="fade-right")
+        .col-md.ps-md-4(data-aos="fade-left")
           h3 En 1997
           p con la aparición del programa <em>Flash</em>, las paginas comienzan a ser desarrolladas con animaciones; pero eran muy lentas para cargar y con pocas visitas.
       
       .row
-        .col-md.pe-md-4.order-2.order-md-1
+        .col-md.pe-md-4.order-2.order-md-1(data-aos="fade-right")
           h3 En 2002
           p aparecen los primeros <em>blog</em> y algunas redes sociales. Se incorporan herramientas para la creación de páginas web para mejorar la usabilidad.
-        img.px-0.mx-auto.mb-4.my-md-auto.order-1.order-md-2(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 125px" alt='imagen decorativa')
+        img.px-0.mx-auto.mb-4.my-md-auto.order-1.order-md-2(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 125px" alt='Imagen decorativa' data-aos="fade-left")
 
-    .d-flex.mb-5
+    .d-flex.mb-5(data-aos="flip-up")
       h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Tipos de páginas web
     
-    p.mb-5 Existen diferentes tipos de página web y a su vez estos tipos se pueden clasificar según su construcción, la tecnología utilizada y la función que cumple; se invita a revisar el siguiente recurso para conocer en detalle estas clasificaciones: 
+    p.mb-5(data-aos="fade-right") Existen diferentes tipos de página web y a su vez estos tipos se pueden clasificar según su construcción, la tecnología utilizada y la función que cumple; se invita a revisar el siguiente recurso para conocer en detalle estas clasificaciones: 
 
-    TabsC.color-primario.mb-5
+    TabsC.color-primario.mb-5(data-aos="fade-left")
       .py-3.py-md-4(titulo="De acuerdo con su <br>construcción")
         p.mb-5 Dentro de esta categoría se pueden destacar los siguientes dos tipos:
         img.d-none.d-md-flex.mx-auto(src='@/assets/curso/temas/tema1/img-6.svg' style="max-width: 820px" alt='Imagen decorativa')
         img.d-flex.d-md-none.mx-auto(src='@/assets/curso/temas/tema1/img-6_1.svg' style="max-width: 250px" alt='Imagen decorativa')
       
-      .py-3.py-md-4(titulo="De acuerdo con su <br>construcción")
+      .py-3.py-md-4(titulo="De acuerdo con la <br>tecnología utilizada")
         p.mb-5 Dentro de esta categoría se pueden destacar los siguientes tres tipos:
         img.d-none.d-md-flex.mx-auto(src='@/assets/curso/temas/tema1/img-7.svg' alt='Imagen decorativa')
         img.d-flex.d-md-none.mx-auto(src='@/assets/curso/temas/tema1/img-7_1.svg' style="max-width: 250px" alt='Imagen decorativa')
       
-      .py-3.py-md-4(titulo="De acuerdo con su <br>construcción")
+      .py-3.py-md-4(titulo="De acuerdo con la <br>función que cumple")
         p.mb-5 Dentro de esta categoría se pueden destacar los siguientes cuatro elementos:
         img.d-none.d-md-flex.mx-auto(src='@/assets/curso/temas/tema1/img-8.svg' alt='Imagen decorativa')
         img.d-flex.d-md-none.mx-auto(src='@/assets/curso/temas/tema1/img-8_1.svg' style="max-width: 250px" alt='Imagen decorativa')
 
-    p.mb-5 Teniendo en cuenta esta clasificación se debe definir una estrategia de acuerdo con los objetivos de la empresa y escoger los tipos de páginas web que le permitan comercializar las experiencias turísticas.
+    p.mb-5(data-aos="fade-right") Teniendo en cuenta esta clasificación se debe definir una estrategia de acuerdo con los objetivos de la empresa y escoger los tipos de páginas web que le permitan comercializar las experiencias turísticas.
 
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Tipos de sitios web
               p Con el fin de tener mayor conocimiento sobre los tipos de sitios web se invita a ver el siguiente video.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=nYCRkhAaTJU" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=nYCRkhAaTJU" target="_blank" data-aos="fade-left")
                 span.pe-4 ver 
                 i.fas.fa-link
 
-    .d-flex.mb-5
+    .d-flex.mb-5(data-aos="flip-up")
       h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Desarrollo web
     
     .d-flex.flex-wrap.mb-5
-      img.col-lg-6.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema1/img-9.svg' alt='Imagen decorativa')
-      .col-lg-6.ps-lg-4
+      img.col-lg-6.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema1/img-9.svg' alt='Muestra sistemas de gestión de contenido logos de Drupal, Joomla y WordPress' data-aos="fade-right")
+      .col-lg-6.ps-lg-4(data-aos="fade-left")
         p.mb-5 Para cualquier empresa turística es fundamental tener un sitio web con un excelente desempeño en donde pueda mostrar su información y se pueda interactuar con los usuarios. Por esto es necesario conocer sobre desarrollo web.
         .cajon.color-primario.p-4.mb-4(style="background-color: #FFF7E5")
           p.mb-0 El desarrollo web se refiere a la construcción, creación y mantenimiento de sitios web. Incluye aspectos como el diseño web, la publicación web, la programación web y la base de datos gestión (Techlib, s.f.)
     .d-flex.flex-wrap.mb-5
-      img.col-lg-6.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema1/img-10.jpg' alt='Imagen decorativa')
-      .col-lg-6.ps-lg-4
+      img.col-lg-6.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema1/img-10.jpg' alt='Imagen decorativa' data-aos="fade-right")
+      .col-lg-6.ps-lg-4(data-aos="fade-left")
         p La mayoría de las grandes empresas turísticas tienen un equipo de desarrollo web dedicado a diseñar y mantener su sitio web; sin embargo, en los últimos años organizaciones más pequeñas, emprendedores e incluso personas naturales del sector están utilizando sistemas de gestión de contenido como WordPress, Drupal y Joomla, para crear y editar sus propios sitios web utilizando un sitio web interfaz.
         p En este sentido surge la inquietud sobre ¿cómo iniciar a desarrollar una página web? Pues bien, se invita a ver el siguiente video, en el que encontrará algunos tips importantes:
 
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Cómo empezar en desarrollo web
               p Con el fin de tener mayor conocimiento sobre ¿cómo iniciar a desarrollar una página web?, se invita a ver el siguiente video.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=s_lUd8mhPpQ" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=s_lUd8mhPpQ" target="_blank" data-aos="fade-left")
                 span Ingresar  
                 i.fas.fa-link
 
-    .d-flex.mb-5
+    .d-flex.mb-5(data-aos="flip-up")
       h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Creación de la página web
 
-    p.mb-5 Para la creación de la página web de la empresa turística es importante definir el plan de trabajo y evaluar las diferentes opciones disponibles para poder elegir la más conveniente. Revise los aspectos más importantes que se deben tener en cuenta:
+    p.mb-5(data-aos="fade-right") Para la creación de la página web de la empresa turística es importante definir el plan de trabajo y evaluar las diferentes opciones disponibles para poder elegir la más conveniente. Revise los aspectos más importantes que se deben tener en cuenta:
 
     .tarjeta.p-4.mb-5(style="background-color: #EAEAEA")
-      PasosB.color-secundario
+      PasosB.color-secundario(data-aos="fade-left")
         .px-4.pt-lg-5.row(titulo="Paso 1")
           .col-lg-6.mb-4.mb-lg-0
             h3 Definir la idea de la página
@@ -189,7 +189,7 @@
 
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-11.svg' style="max-width: 525px" alt='imagen decorativa')
+              img(src='@/assets/curso/temas/tema1/img-11.svg' style="max-width: 525px" alt='Imagen decorativa')
         
         .px-4.pt-lg-5.row(titulo="Paso 2")
           .col-lg-6.mb-4.mb-lg-0
@@ -198,7 +198,7 @@
 
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-12.svg' style="max-width: 324px" alt='imagen decorativa')
+              img(src='@/assets/curso/temas/tema1/img-12.svg' style="max-width: 324px" alt='Imagen decorativa')
         
         .px-4.pt-lg-5.row(titulo="Paso 3")
           .col-lg-6.mb-4.mb-lg-0
@@ -207,7 +207,7 @@
 
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-13.svg' style="max-width: 505px" alt='imagen decorativa')
+              img(src='@/assets/curso/temas/tema1/img-13.svg' style="max-width: 505px" alt='Imagen decorativa')
         
         .px-4.pt-lg-5.row(titulo="Paso 4")
           .col-lg-6.mb-4.mb-lg-0
@@ -216,7 +216,7 @@
 
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-14.svg' style="max-width: 563px" alt='imagen decorativa')
+              img(src='@/assets/curso/temas/tema1/img-14.svg' style="max-width: 563px" alt='Imagen decorativa')
 
         .px-4.pt-lg-5.row(titulo="Paso 5")
           .col-lg-6.mb-4.mb-lg-0
@@ -224,33 +224,33 @@
             p La empresa turística debe tener información sobre el rendimiento de su página web, para esto es necesario recopilar estadísticas que le permitan analizar y tomar decisiones para mejorar continuamente. 
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-15.svg' style="max-width: 505px" alt='imagen decorativa')
+              img(src='@/assets/curso/temas/tema1/img-15.svg' style="max-width: 505px" alt='Imagen decorativa')
     
-    p.mb-5 Dentro de los sistemas de gestión de contenidos más conocidos está el Wordpress, a continuación, encontrará el paso a paso para la creación de una página web:
+    p.mb-5(data-aos="fade-right") Dentro de los sistemas de gestión de contenidos más conocidos está el Wordpress, a continuación, encontrará el paso a paso para la creación de una página web:
 
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Cómo crear una página web en WordPress gratis
               p Con el fin de tener mayor conocimiento sobre ¿Cómo crear una página web en Wordpress? se invitamos a ver el siguiente video.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=4UF3xVuWBu0" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=4UF3xVuWBu0" target="_blank" data-aos="fade-left")
                 span Ingresar   
                 i.fas.fa-link
 
-    .d-flex.mb-5
+    .d-flex.mb-5(data-aos="flip-up")
       h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Estructura de la página web
     
-    p.mb-5 Una vez la empresa turística decide montar una página web es importante que conozca cuáles son los elementos básicos de una estructura web.  Se invita a ver en el siguiente recurso los elementos que hacen parte de la estructura de la página web (<em>Marketing</em>, 2017):
+    p.mb-5(data-aos="fade-right") Una vez la empresa turística decide montar una página web es importante que conozca cuáles son los elementos básicos de una estructura web.  Se invita a ver en el siguiente recurso los elementos que hacen parte de la estructura de la página web (<em>Marketing</em>, 2017):
 
-    ImagenInfografica.color-acento-botones.mb-5.col-xl-8.col-lg-10.mx-auto
+    ImagenInfografica.color-acento-botones.mb-5.col-xl-8.col-lg-10.mx-auto(data-aos="fade-left")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema1/img-16.svg' alt='imagen infografica decorativa')
+          img(src='@/assets/curso/temas/tema1/img-16.svg' alt='Imagen que muestra puntos de estructura de una página web que se describen en la parte inferior')
 
       .tarjeta.p-3(x="63.2%" y="20%" numero="+" style="background-color: #FFF7E3")
         .h5.mb-2 Cabecera <em style="font-weight: normal;">(Header)</em>
@@ -272,103 +272,103 @@
         .h5.mb-2 Pie de página <em style="font-weight: normal;">(Footer)</em>
         p El pie de página es la parte inferior de la página web, en esta zona se aprovecha para poner secciones de la web que tengan menos interés para los usuarios (aviso legal, política de cookies, etc.), datos de contacto de la empresa turística y las redes sociales. 
 
-    .d-flex.mb-5
+    .d-flex.mb-5(data-aos="flip-up")
       h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Diseño adaptable (responsive)
     
     .d-flex.flex-wrap.mb-5
-      img.col-lg-6.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema1/img-17.jpg' alt='Imagen decorativa')
-      .col-lg-6.ps-lg-4
+      img.col-lg-6.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema1/img-17.jpg' alt='Imagen decorativa' data-aos="fade-right")
+      .col-lg-6.ps-lg-4(data-aos="fade-left")
         p El diseño adaptable o responsive es utilizado en los sitios web para adaptar los contenidos de diversos formatos a los dispositivos que utilice el usuario (computadores, tabletas, teléfonos inteligentes), esto genera un mayor alcance de la marca y mejora la experiencia de los usuarios al visitar el sitio web de la empresa turística.
         p Cada día más personas utilizan sus teléfonos móviles para acceder a Internet, en ocasiones reemplazando a los PC. Es por este motivo que la empresa debe tener un sitio web adaptable (responsive) para comercializar sus experiencias turísticas, esto le genera más clientes potenciales y una ventaja sobre las empresas del sector que no lo tienen. Entre muchas bondades que tiene el desarrollo web con diseño adaptable se reconocen las siguientes:
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 1.
       span Bondades del desarrollo web con diseño adaptable
-    img.mb-5(src="@/assets/curso/temas/tema1/img-18.svg")
+    img.mb-5(src="@/assets/curso/temas/tema1/img-18.svg" data-aos="fade-left" alt='Muestra texto de bondades del desarrollo web con diseño sostenible que se describen parte inferior -Permite a los usuarios descubrir el sitio web de la empresa turística. Incluso Google penaliza a los sitios web que no ofrecen un diseño adaptable o uno creado específicamente ')
 
-    p.mb-5 A continuación, se presentan algunos aspectos que se deben tener en cuenta para el diseño de un sitio web adaptable para la comercialización de experiencias turísticas:
+    p.mb-5(data-aos="fade-right") A continuación, se presentan algunos aspectos que se deben tener en cuenta para el diseño de un sitio web adaptable para la comercialización de experiencias turísticas:
 
     .col-lg-10.col-xl-6.mx-auto
-      .titulo-sexto.color-acento-contenido
+      .titulo-sexto.color-acento-contenido(data-aos="fade-right")
         h5 Figura 2.
         span Comercialización de experiencias turísticas
-      img.mb-5(src="@/assets/curso/temas/tema1/img-19.svg")
+      img.mb-5(src="@/assets/curso/temas/tema1/img-19.svg" data-aos="fade-left" alt='Muestra texto de los aspectos para la comercialización de experiencias turísticas que se detallan parte inferior')
 
     p.mb-5 Desea conocer cómo desarrollar una página web con diseño adaptable, se invita a explorar el siguiente recurso:
 
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Manual de responsive web design
               p Con el fin de tener mayor conocimiento del tema puede revisar el manual, ingresando al link.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://desarrolloweb.com/manuales/responsive-web-design.html" target="_blank")
+              a.boton.color-acento-botones(href="https://desarrolloweb.com/manuales/responsive-web-design.html" target="_blank" data-aos="fade-left")
                 span Ingresar   
                 i.fas.fa-link
 
-    .d-flex.mb-5
+    .d-flex.mb-5(data-aos="flip-up")
       h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") La maqueta del sitio web (<em>mockup</em>)
     
     .d-flex.flex-wrap.mb-5.pt-5
-      .col-lg-6.pe-lg-4.order-2.order-lg-1
+      .col-lg-6.pe-lg-4.order-2.order-lg-1(data-aos="fade-right")
         .cajon.color-acento-botones.p-4.mb-4(style="background-color: #D6ECFA")
           p.mb-0 En la etapa de maquetación de un sitio web, la empresa turística debe estructurar, organizar y distribuir de manera gráfica los espacios y elementos que tendrá (menús, imágenes, botones, etc.) para tener una vista previa del sitio.
         p Durante esta etapa se definen, entre otros aspectos, los colores, las tipografías y el estilo para que el sitio cumpla con las necesidades de la empresa. Algunas de las ventajas de realizar una maqueta son:
-      img.order-1.order-lg-2.col-lg-6.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-20.jpg" style="max-width: 559px")
+      img.order-1.order-lg-2.col-lg-6.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-20.jpg" style="max-width: 559px" data-aos="fade-left" alt='Imagen decorativa')
     
     .col-lg-10.col-xl-8.mx-auto
-      .titulo-sexto.color-acento-contenido
+      .titulo-sexto.color-acento-contenido(data-aos="fade-right")
         h5 Figura 3.
         span Ventajas de la maqueta
-      img.mb-5(src="@/assets/curso/temas/tema1/img-21.svg")
+      img.mb-5(src="@/assets/curso/temas/tema1/img-21.svg" data-aos="fade-left" alt='Muestra texto ventajas de la maqueta y se describen parte inferior')
 
-    p.mb-5 Estimado aprendiz desea saber cómo desarrollar una página web en Adobe XD, se invitamos a ver el paso a paso en el siguiente video:
+    p.mb-5(data-aos="fade-right") Estimado aprendiz desea saber cómo desarrollar una página web en Adobe XD, se invitamos a ver el paso a paso en el siguiente video:
 
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Como diseñar una página web - Adobe XD | paso a paso
               p Con el fin de tener mayor conocimiento sobre como crear una página web en Adobe XD se invita a ver el siguiente video.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=ZopuGotHk7k" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=ZopuGotHk7k" target="_blank" data-aos="fade-left")
                 span Ingresar   
                 i.fas.fa-link
     
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Maquetado responsive con CSS Grid 
               p Con el fin de tener mayor conocimiento sobre el <b>maquetado responsive con CSS Grid | Diseño adaptativo</b> se invita a ver el siguiente video.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=T4t00Hd3qZc" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=T4t00Hd3qZc" target="_blank" data-aos="fade-left")
                 span Ingresar   
                 i.fas.fa-link
     
-    .d-flex.mb-5
+    .d-flex.mb-5(data-aos="flip-up")
       h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Contenido de la página web
     
     .d-flex.flex-wrap.mb-5
-      img.col-lg-6.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema1/img-22.jpg' alt='Imagen decorativa')
-      .col-lg-6.ps-lg-4
+      img.col-lg-6.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema1/img-22.jpg' alt='Imagen decorativa' data-aos="fade-right")
+      .col-lg-6.ps-lg-4(data-aos="fade-rleft")
         p Se hace referencia a las publicaciones de texto, auditivas o visuales que se realizan en el sitio web de la empresa turística. La página de Internet para la comercialización de las experiencias turísticas puede ser el primer punto de contacto entre la empresa y los clientes potenciales, por eso es importante mantener actualizado el contenido que se publica. 
         .cajon.color-primario.p-4.mb-4(style="background-color: #FFF7E5")
           p.mb-0 El contenido es importante para generar tráfico de su sitio de Internet. Por eso es clave crear contenido en diferentes formatos, que sea atractivo y esté organizado.
     
-    p.mb-5 En este sentido se invita a revisar el siguiente recurso, en el que encontrará los tipos de contenido web más utilizados: 
+    p.mb-5(data-aos="fade-right") En este sentido se invita a revisar el siguiente recurso, en el que encontrará los tipos de contenido web más utilizados: 
 
-    SlyderF.mb-5(columnas="col-lg-6")
+    SlyderF.mb-5(columnas="col-lg-6" data-aos="fade-left")
       .tarjeta(style="overflow: hidden; background-color: #FFF4D9")
         img(src='@/assets/curso/temas/tema1/img-23.jpg' alt='Imagen decorativa')
         .p-4
@@ -402,28 +402,28 @@
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Seis tipos de contenidos que se hacen más virales en Internet
               p Estimado aprendiz, le gustaría saber cuáles son los seis tipos de contenidos que se hacen más virales en Internet, pues bien, se invita a ver el siguiente enlace.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=7JYAeCyWSLo" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=7JYAeCyWSLo" target="_blank" data-aos="fade-right")
                 span.pe-4 Ver   
                 i.fas.fa-link
 
-    .d-flex.mb-5
+    .d-flex.mb-5(data-aos="flip-up")
       h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Usabilidad
     
     .container-100.d-flex.flex-wrap.align-items-center.py-4.mb-5(style="background-color: #E8F5FE; box-shadow: 0 3px 6px 3px #00000010")
-      img(src="@/assets/curso/temas/tema1/img-28.svg" style="max-width: 85px" alt="imagen decorativa")
-      p.col-md.mb-0.ps-md-4 Hace referencia a la facilidad que tienen los usuarios de la página web de la empresa turística para ingresar y navegar de manera sencilla, segura e intuitiva. Se invita a ver este recurso, en el que encontrará algunos aspectos que debe considerar la empresa en el momento de diseñar y desarrollar un sitio web para la comercialización de experiencias turísticas, según (Inboundcycle, s.f.).
+      img(src="@/assets/curso/temas/tema1/img-28.svg" style="max-width: 85px" alt="Imagen decorativa" data-aos="fade-right")
+      p.col-md.mb-0.ps-md-4(data-aos="fade-left") Hace referencia a la facilidad que tienen los usuarios de la página web de la empresa turística para ingresar y navegar de manera sencilla, segura e intuitiva. Se invita a ver este recurso, en el que encontrará algunos aspectos que debe considerar la empresa en el momento de diseñar y desarrollar un sitio web para la comercialización de experiencias turísticas, según (Inboundcycle, s.f.).
 
-    p.mb-5 Se puede distinguir tres tipos de usabilidad de las páginas web:
+    p.mb-5(data-aos="fade-right") Se puede distinguir tres tipos de usabilidad de las páginas web:
 
     .d-flex.flex-wrap.mb-5
-      AcordionA.col-lg-8.pe-lg-4(tipo="b" clase-tarjeta="tarjeta tarjeta--azul-edit")
+      AcordionA.col-lg-8.pe-lg-4(tipo="b" clase-tarjeta="tarjeta tarjeta--azul-edit" data-aos="fade-left")
         .row(titulo="Beneficios")
           .d-flex.flex-wrap
             .order-2.order-xl-1.col-xl-7
@@ -449,7 +449,7 @@
                 li.d-flex.mb-0
                   .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
                   | Aumenta las ventas por medio del sitio web.
-            img.order-1.order-xl-2.col-xl-4.mx-auto.ms-xl-0.mb-4.mb-xl-auto(src="@/assets/curso/temas/tema1/img-30.svg" style="max-width: 233px" alt="imagen decorativa")
+            img.order-1.order-xl-2.col-xl-4.mx-auto.ms-xl-0.mb-4.mb-xl-auto(src="@/assets/curso/temas/tema1/img-30.svg" style="max-width: 233px" alt="Imagen decorativa")
         .row(titulo="Optimizar la usabilidad")
           .d-flex.flex-wrap
             .order-2.order-xl-1.col-xl-7
@@ -475,7 +475,7 @@
                 li.d-flex.mb-0
                   .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
                   | Adaptar el sitio web a todos los dispositivos.
-            img.order-1.order-xl-2.col-xl-4.mx-auto.ms-xl-0.mb-4.mb-xl-auto(src="@/assets/curso/temas/tema1/img-31.svg" style="max-width: 233px" alt="imagen decorativa")
+            img.order-1.order-xl-2.col-xl-4.mx-auto.ms-xl-0.mb-4.mb-xl-auto(src="@/assets/curso/temas/tema1/img-31.svg" style="max-width: 233px" alt="Imagen decorativa")
         .row(titulo="Recomendaciones")
           .d-flex.flex-wrap
             .order-2.order-xl-1.col-xl-7
@@ -498,113 +498,113 @@
                 li.d-flex.mb-0
                   .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
                   | Revisar y adaptar la versión móvil de todas las páginas de la web.
-            img.order-1.order-xl-2.col-xl-5.mx-auto.ms-xl-0.mb-4.mb-xl-auto(src="@/assets/curso/temas/tema1/img-32.svg" style="max-width: 302px" alt="imagen decorativa")
-      img.col-lg-4.mb-auto.d-none.d-lg-flex(src="@/assets/curso/temas/tema1/img-29.jpg" style="max-width: 400px" alt="imagen decorativa")
+            img.order-1.order-xl-2.col-xl-5.mx-auto.ms-xl-0.mb-4.mb-xl-auto(src="@/assets/curso/temas/tema1/img-32.svg" style="max-width: 302px" alt="Imagen decorativa")
+      img.col-lg-4.mb-auto.d-none.d-lg-flex(src="@/assets/curso/temas/tema1/img-29.jpg" style="max-width: 400px" alt="Imagen decorativa")
 
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Usabilidad
               p Con el fin de tener mayor conocimiento sobre la usabilidad, se invita a ver el siguiente video: <br><b>Usabilidad web ¿Qué es y qué aporta al usuario? | Masterclass.</b>
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Y7nLeu4cY38" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Y7nLeu4cY38" target="_blank" data-aos="fade-right")
                 span.pe-4 Ver   
                 i.fas.fa-link
 
-    .d-flex.mb-5
+    .d-flex.mb-5(data-aos="flip-up")
       h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Accesibilidad
     
     .mb-5.pt-5
       div(style="background-color: #FFB338; border-top-right-radius: 60px")
         .d-flex.flex-wrap.align-items-center.col-xl-11.mx-auto.p-4.p-lg-0
-          .col-lg.ps-lg-4.pe-lg-5.mb-0.order-2.order-lg-1
+          .col-lg.ps-lg-4.pe-lg-5.mb-0.order-2.order-lg-1(data-aos="fade-right")
             p Busca facilitar el acceso universal a Internet. Es por esto que en el momento de diseñar y programar el sitio web la empresa turística debe adaptarlo sin importar las limitaciones físicas, intelectuales o sensoriales de los usuarios.
             p.mb-0 La WAI (<em>Web Accessibility Initiative</em>) desde 1999 emite directrices estandarizadas y reconocidas a nivel internacional para crear contenidos y páginas más accesibles que se agrupan en los siguientes aspectos:
-          img.mb-4.mb-lg-auto.mx-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-33.png" style="max-width: 336px; margin-top: -5%" alt="imagen decorativa")
+          img.mb-4.mb-lg-auto.mx-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-33.png" style="max-width: 336px; margin-top: -5%" alt="Imagen decorativa" data-aos="fade-left")
     
 
     .row.justify-content-center.mb-5
-      .col-xl-4.col-md-6.col-11.mb-4.mb-xl-0
+      .col-xl-4.col-md-6.col-11.mb-4.mb-xl-0(data-aos="fade-right")
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img-34.jpg", alt="imagen decorativa")
+              img(src="@/assets/curso/temas/tema1/img-34.jpg", alt="Imagen decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-center(style="min-height: 43px") Accesibilidad del contenido web (WCAG)
             p.mb-0 Pautas para crear contenidos accesibles y compatibles con todo tipo de tecnologías de apoyo, dispositivos, navegadores y lenguajes de programación. Contemplan el uso de letras de gran tamaño, diseños adaptativos, textos predictivos, asistentes a la navegación, etc.
 
-      .col-xl-4.col-md-6.col-11.mb-4.mb-xl-0
+      .col-xl-4.col-md-6.col-11.mb-4.mb-xl-0(data-aos="flip-up")
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img-35.jpg", alt="imagen decorativa")
+              img(src="@/assets/curso/temas/tema1/img-35.jpg", alt="Imagen decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-center(style="min-height: 43px") Accesibilidad de las herramientas de autor (ATAG)
             p.mb-0 Normas que atañen al desarrollo de los programas y aplicaciones que se utilizan para crear, gestionar y publicar los contenidos digitales. Estas herramientas abarcan los procesadores de textos, los gestores de bases de datos, los programas de edición de vídeo, etc.
 
-      .col-xl-4.col-md-6.col-11.mb-4.mb-xl-0
+      .col-xl-4.col-md-6.col-11.mb-4.mb-xl-0(data-aos="fade-right")
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img-36.jpg", alt="imagen decorativa")
+              img(src="@/assets/curso/temas/tema1/img-36.jpg", alt="Imagen decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-center(style="min-height: 43px") Accesibilidad de los agentes de usuario (UAAG)
             p.mb-0 Pautas destinadas al desarrollo de los programas necesarios para interactuar con el contenido web, como los navegadores, los reproductores multimedia, los lectores de pantalla, etc.
 
-    p.mb-5 La WAI clasifica también las páginas web según la accesibilidad de los contenidos, estableciendo los siguientes niveles (Iberdrola, s.f.):
+    p.mb-5(data-aos="fade-right") La WAI clasifica también las páginas web según la accesibilidad de los contenidos, estableciendo los siguientes niveles (Iberdrola, s.f.):
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 4.
-      span Ventajas de la maqueta
-    img.mb-5.d-none.d-md-flex(src="@/assets/curso/temas/tema1/img-37.svg")
-    img.mx-auto.mb-5.d-flex.d-md-none(src="@/assets/curso/temas/tema1/img-37_1.svg" style="max-width: 300px")
+      span Clasificación de páginas web accesibles
+    img.mb-5.d-none.d-md-flex(src="@/assets/curso/temas/tema1/img-37.svg" data-aos="fade-left" alt='Muestra texto clasificación de las páginas accesibles  que se describen en la parte inferior de la imagen.')
+    img.mx-auto.mb-5.d-flex.d-md-none(src="@/assets/curso/temas/tema1/img-37_1.svg" style="max-width: 300px" data-aos="fade-left" alt='Muestra texto clasificación de las páginas accesibles  que se describen en la parte inferior de la imagen.')
 
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3  ¿Qué es la accesibilidad web?
               p Con el fin de tener mayor conocimiento sobre la accesibilidad web, se invita a ver el siguiente video.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=gQIKQO41pME" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=gQIKQO41pME" target="_blank" data-aos="fade-right")
                 span.pe-4 Ver   
                 i.fas.fa-link
 
-    .d-flex.mb-5
+    .d-flex.mb-5(data-aos="flip-up")
       h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Posicionamiento web
 
     .container-100.d-flex.flex-wrap.align-items-center.py-4.mb-5(style="background-color: #E8F5FE; box-shadow: 0 3px 6px 3px #00000010")
-      img(src="@/assets/curso/temas/tema1/img-38.svg" style="max-width: 85px" alt="imagen decorativa")
-      p.col-md.mb-0.ps-md-4 Tener un buen posicionamiento web ofrece una ventaja cuando de aumentar las ventas en línea se trata, es por esto que las empresas turísticas desarrollan estrategias para atraer a los usuarios cualificados por medio del tráfico orgánico, lo que se conoce como SEO (<em>Search Engine Optimization</em> u optimización de motores de búsqueda). Se invita a ver el siguiente recurso sobre las estrategias SEO:
+      img(src="@/assets/curso/temas/tema1/img-38.svg" style="max-width: 85px" alt="Imagen decorativa" data-aos="fade-right")
+      p.col-md.mb-0.ps-md-4(data-aos="fade-left") Tener un buen posicionamiento web ofrece una ventaja cuando de aumentar las ventas en línea se trata, es por esto que las empresas turísticas desarrollan estrategias para atraer a los usuarios cualificados por medio del tráfico orgánico, lo que se conoce como SEO (<em>Search Engine Optimization</em> u optimización de motores de búsqueda). Se invita a ver el siguiente recurso sobre las estrategias SEO:
 
-    figure.col-xl-10.mx-auto(data-aos="fade-left")
+    figure.col-xl-10.mx-auto.mb-5(data-aos="fade-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3  Buscadores
               p Con el fin de tener mayor conocimiento sobre buscadores, se invita a ver el siguiente video.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=99G6_y2TZPo" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=99G6_y2TZPo" target="_blank" data-aos="fade-left")
                 span.pe-4 Ver   
                 i.fas.fa-link
-    p.mb-5 A continuación, se presentan algunos consejos para mejorar el posicionamiento del sitio de web de comercialización de experiencias turísticas en Google (Capella, 2020):
+    p.mb-5(data-aos="fade-right") A continuación, se presentan algunos consejos para mejorar el posicionamiento del sitio de web de comercialización de experiencias turísticas en Google (Capella, 2020):
 
     .tarjeta.px-5.py-3.mb-5(style="background-color: #FFF7E3")
-      SlyderA(tipo="b")
+      SlyderA(tipo="b" data-aos="fade-left")
         .row.justify-content-start.align-items-start.py-5
           .col-lg-5.mb-4.mb-lg-0.pt-4.pt-0.position-relative
               h4.mb-4 Optimizar la página web de la empresa turística
@@ -628,29 +628,29 @@
 
           .col-6.col-lg-6.mx-auto
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/img-39.svg' style="max-width: 544px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-39.svg' style="max-width: 544px" alt='Imagen decorativa')
       
         .row.justify-content-start.align-items-start.py-5
           .col-lg-6.mb-4.mb-lg-0.pt-4.pt-0.position-relative
               h4.mb-4 Escribir sobre lo que buscan los usuarios en el buscador
               P La empresa turística debe definir una estrategia de contenido y uno de los aspectos a tener en cuenta es escribir sobre lo que escriben o buscan los usuarios en Google.
               P Algunas herramientas que se pueden utilizar para identificar lo que los usuarios están escribiendo son:
-              img(src='@/assets/curso/temas/tema1/img-40.svg' style="max-width: 450px")
+              img(src='@/assets/curso/temas/tema1/img-40.svg' style="max-width: 450px" alt='Muestra imagenes de logo de Google, Ubersuggest, Keyword tool, SE  Rankiing, Key Word, Answer The Public')
 
           .col-6.col-lg-6.mx-auto
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/img-41.svg' style="max-width: 406px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-41.svg' style="max-width: 406px" alt='Imagen decorativa')
         
         .row.justify-content-start.align-items-start.py-5
           .col-lg-6.mb-4.mb-lg-0.pt-4.pt-0.position-relative
               h4.mb-4 Crear contenido de valor
               P La empresa turística debe tener en cuenta el contenido que publica en su sitio web para que cuando el buscador de Google haga el rastreo, pueda identificar de qué se trata el contenido relevante para los usuarios. Este contenido debe ser:
-              img(src='@/assets/curso/temas/tema1/img-42.svg' style="max-width: 565px")
+              img(src='@/assets/curso/temas/tema1/img-42.svg' style="max-width: 565px" alt='Muestra el siguiente texto en cajones: Interesante, original, aporte aprendizaje, Aporte valor  a usuarios, relacionado con lo que los usuarios buscan')
               P Adicionalmente, la empresa debe estar informada sobre las actualizaciones de los algoritmos del buscador de Google, para poder identificar los ajustes que se deben realizar en su estrategia de contenidos.
 
           .col-6.col-lg-6.mx-auto
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/img-43.svg' style="max-width: 503px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-43.svg' style="max-width: 503px" alt='Imagen decorativa')
 
         .row.justify-content-start.align-items-start.py-5
           .col-lg-5.mb-4.mb-lg-0.pt-4.pt-0.position-relative
@@ -672,7 +672,7 @@
 
           .col-6.col-lg-6.mx-auto
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/img-44.svg' style="max-width: 524px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-44.svg' style="max-width: 524px" alt='Imagen decorativa')
         
         .row.justify-content-start.align-items-start.py-5
           .col-lg-5.mb-4.mb-lg-0.pt-4.pt-0.position-relative
@@ -694,7 +694,7 @@
 
           .col-6.col-lg-6.mx-auto
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/img-45.svg' style="max-width: 544px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-45.svg' style="max-width: 544px" alt='Imagen decorativa')
         
         .row.justify-content-start.align-items-start.py-5
           .col-lg-5.mb-4.mb-lg-0.pt-4.pt-0.position-relative
@@ -716,7 +716,7 @@
 
           .col-6.col-lg-6.mx-auto
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/img-46.svg' style="max-width: 520px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-46.svg' style="max-width: 520px" alt='Imagen decorativa')
         
         .row.justify-content-start.align-items-start.py-5
           .col-lg-6.mb-4.mb-lg-0.pt-4.pt-0.position-relative
@@ -727,21 +727,21 @@
 
           .col-6.col-lg-6.mx-auto
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/img-47.svg' style="max-width: 344px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-47.svg' style="max-width: 344px" alt='Imagen decorativa')
 
-    p.mb-5 Estimado aprendiz, para profundizar sobre la aplicación de SEO en una estrategia de marketing online puede revisar el siguiente material:
+    p.mb-5(data-aos="fade-right") Estimado aprendiz, para profundizar sobre la aplicación de SEO en una estrategia de marketing online puede revisar el siguiente material:
 
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3  Cómo posicionar en turismo | SEO en turismo
               p Con el fin de tener mayor conocimiento sobre cómo posicionar en turismo | SEO en turismo, se invita a ver el siguiente video.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=UPySDhEI0rU" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=UPySDhEI0rU" target="_blank" data-aos="fade-left")
                 span.pe-4 Ver   
                 i.fas.fa-link
 
@@ -750,49 +750,49 @@
       h2#t_1_2 1.2. Alojamiento (<em>hosting</em>) y dominio web 
 
     .container-titulo.mb-5
-      img(src="@/assets/curso/temas/tema1/img-48.svg" style="max-width: 78px; width: 78px" alt="imagen decorativa")
-      h3 El <em>hosting</em> (alojamiento) 
+      img(src="@/assets/curso/temas/tema1/img-48.svg" style="max-width: 78px; width: 78px" alt="Imagen decorativa" data-aos="fade-right")
+      h3 El <em>hosting</em> (alojamiento)
     
-    p.mb-5 Se refiere al servicio que permite que el sitio web de la empresa turística siempre esté en línea o disponible, adicionalmente en este servicio se puede alojar otro tipo de información, como por ejemplo, aplicaciones, correos electrónicos, bases de datos, etc. Existen tres tipos de hosting, se invita a revisar el siguiente recurso para conocerlos:
+    p.mb-5(data-aos="fade-right") Se refiere al servicio que permite que el sitio web de la empresa turística siempre esté en línea o disponible, adicionalmente en este servicio se puede alojar otro tipo de información, como por ejemplo, aplicaciones, correos electrónicos, bases de datos, etc. Existen tres tipos de hosting, se invita a revisar el siguiente recurso para conocerlos:
 
     .d-flex.flex-wrap.justify-content-center.mb-5
       .col-xl-4.col-md-6.px-md-2.mb-3
         .tarjeta.p-4(style="background-color: #FFF4D9")
-          img.mb-2(src="@/assets/curso/temas/tema1/img-49.svg" style="width: 149px;" alt="imagen decorativa")
-          h3.mb-4 <em>Hosting</em> compartido
-          p.mb-0 El Cliente comparte el servicio y el <em>Hardware</em> con otros clientes. Son servicios muy económicos porque se compensa costo con volumen de clientes por servidor. No es un servicio fácilmente escalable.
+          img.mb-2(src="@/assets/curso/temas/tema1/img-49.svg" style="width: 149px;" alt="Imagen decorativa" data-aos="fade-right")
+          h3.mb-4(data-aos="fade-right") <em>Hosting</em> compartido
+          p.mb-0(data-aos="fade-left") El Cliente comparte el servicio y el <em>Hardware</em> con otros clientes. Son servicios muy económicos porque se compensa costo con volumen de clientes por servidor. No es un servicio fácilmente escalable.
       
       .col-xl-4.col-md-6.px-md-2.mb-3
         .tarjeta.p-4(style="background-color: #FFF4D9")
-          img.mb-2(src="@/assets/curso/temas/tema1/img-50.svg" style="width: 149px;" alt="imagen decorativa")
-          h3.mb-4 <em>Cloud Hosting</em> 
-          p.mb-0 Es la nueva tecnología que  reemplaza el modelo tradicional de <em>Hosting</em>. Tiene asignación dedicada de <em>Hardware</em> por lo cual el Cliente no se afecta por malos vecinos. Es una tecnología que SI permite escalabilidad.
+          img.mb-2(src="@/assets/curso/temas/tema1/img-50.svg" style="width: 149px;" alt="Imagen decorativa" data-aos="flip-up")
+          h3.mb-4(data-aos="fade-right") <em>Cloud Hosting</em> 
+          p.mb-0(data-aos="fade-left") Es la nueva tecnología que  reemplaza el modelo tradicional de <em>Hosting</em>. Tiene asignación dedicada de <em>Hardware</em> por lo cual el Cliente no se afecta por malos vecinos. Es una tecnología que SI permite escalabilidad.
       
       .col-xl-4.col-md-6.px-md-2.mb-3
         .tarjeta.p-4(style="background-color: #FFF4D9")
-          img.mb-2(src="@/assets/curso/temas/tema1/img-51.svg" style="width: 149px;" alt="imagen decorativa")
-          h3.mb-4 <em>Hosting</em> Delicado
-          p.mb-0 El Cliente no comparte el servicio, ni los recursos de <em>Hardware</em> con nadie más. Recomendado cuando al Cliente le preocupa la seguridad y cuando requiere un mejor nivel de servicio. Permite escalabilidad.
+          img.mb-2(src="@/assets/curso/temas/tema1/img-51.svg" style="width: 149px;" alt="Imagen decorativa" data-aos="fade-left")
+          h3.mb-4(data-aos="fade-right") <em>Hosting</em> Delicado
+          p.mb-0(data-aos="fade-left") El Cliente no comparte el servicio, ni los recursos de <em>Hardware</em> con nadie más. Recomendado cuando al Cliente le preocupa la seguridad y cuando requiere un mejor nivel de servicio. Permite escalabilidad.
 
     .container-titulo.mb-5
-      img(src="@/assets/curso/temas/tema1/img-48.svg" style="max-width: 78px; width: 78px" alt="imagen decorativa")
+      img(src="@/assets/curso/temas/tema1/img-48.svg" style="max-width: 78px; width: 78px" alt="Imagen decorativa" data-aos="fade-right")
       h3 El dominio web
     
     .container-100.d-flex.flex-wrap.align-items-center.py-4.mb-5(style="background-color: #E8F5FE; box-shadow: 0 3px 6px 3px #00000010")
-      img(src="@/assets/curso/temas/tema1/img-53.svg" style="max-width: 85px" alt="imagen decorativa")
-      p.col-md.mb-0.ps-md-4 Es la dirección del sitio web. Un navegador necesita un nombre de dominio para dirigirse a la página web y funciona como un atajo para llegar al servidor que aloja la información del sitio web de la empresa turística. Un dominio de Internet se forma a partir de dos elementos principales, el nombre del sitio web, por ejemplo, Despegar y la extensión del dominio .com.
+      img(src="@/assets/curso/temas/tema1/img-53.svg" style="max-width: 85px" alt="Imagen decorativa" data-aos="fade-right")
+      p.col-md.mb-0.ps-md-4(data-aos="fade-left") Es la dirección del sitio web. Un navegador necesita un nombre de dominio para dirigirse a la página web y funciona como un atajo para llegar al servidor que aloja la información del sitio web de la empresa turística. Un dominio de Internet se forma a partir de dos elementos principales, el nombre del sitio web, por ejemplo, Despegar y la extensión del dominio .com.
     
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3  ¿Qué es un dominio y un <em>hosting</em>?
               p Con el fin de tener mayor conocimiento sobre qué es un dominio y un <em>hosting</em>, se invita a ver el siguiente video.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=W2Yrj0h52D4" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=W2Yrj0h52D4" target="_blank" data-aos="fade-left")
                 span.pe-4 Ver   
                 i.fas.fa-link
 
@@ -801,43 +801,43 @@
       h2#t_1_3 1.3. Certificados de seguridad
     
     .d-flex.flex-wrap.mb-5
-      .col-lg-6.pe-lg-4.order-2.order-lg-1
+      .col-lg-6.pe-lg-4.order-2.order-lg-1(data-aos="fade-right")
         p Cuando el sitio web de la empresa turística cuenta con un certificado de seguridad web está generando confianza y credibilidad en sus usuarios. Contar con estos certificados es importante sobre todo las redes sociales, las tiendas <em>online</em> o cuando se piden datos bancarios para hacer compras en línea.
         .cajon.color-primario.p-4.mb-4(style="background-color: #FFF7E5")
           p.mb-0 Los certificados brindan seguridad en la conexión entre los dispositivos y el servidor que aloja el sitio web de la empresa turística. El SSL (<em>Secure Sockets Layer</em> o capa de puertos seguros) es una forma de cifrar la información desde el navegador del dispositivo hasta que es recibida por el servidor.
 
-      img.order-1.order-lg-2.col-lg-6.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-54.jpg" style="max-width: 610px")
+      img.order-1.order-lg-2.col-lg-6.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-54.jpg" style="max-width: 610px" data-aos="fade-left" alt='Imagen decorativa')
 
-    p.mb-5 En este sentido, es importante señalar que según (Cabrera, 2017) existen 3 tipos de SSL:
+    p.mb-5(data-aos="fade-right") En este sentido, es importante señalar que según (Cabrera, 2017) existen 3 tipos de SSL:
 
     .col-12.col-lg-9.mx-xl-auto.col-xl-8.position-relative.d-flex.flex-wrap.mb-5
       .avatar
         figure
-          img(src="@/assets/curso/temas/tema1/img-58.svg", alt="alt").img250
-      .crd.crd--avatarHorizontal.py-4
+          img(src="@/assets/curso/temas/tema1/img-58.svg", alt="Imagen decorativa" data-aos="fade-left").img250
+      .crd.crd--avatarHorizontal.py-4(data-aos="fade-right")
         .decorador-right(style="background-color: #50A3F3")
         .row.align-items-center
           .col-auto
             figure
-              img(src="@/assets/curso/temas/tema1/img-55.svg" alt="alt").img100
+              img(src="@/assets/curso/temas/tema1/img-55.svg" alt="Imagen decorativa").img100
           .col.pe-4
             h5 Certificados con validación de dominio 
             p En este SSL la autoridad certificadora revisa la propiedad del dominio del solicitante y no revisa la identidad de la empresa.
-      .crd.crd--avatarHorizontal.py-4
+      .crd.crd--avatarHorizontal.py-4(data-aos="fade-right")
         .decorador-right(style="background-color: #FFB338")
         .row.align-items-center
           .col-auto
             figure
-              img(src="@/assets/curso/temas/tema1/img-56.svg" alt="alt").img100
+              img(src="@/assets/curso/temas/tema1/img-56.svg" alt="Imagen decorativa").img100
           .col.pe-4
             h5 Certificados con validación de empresa 
             p En este tipo de SSL es necesario validar la propiedad del dominio y presentar documentos legales de la empresa. El usuario final puede ver la información de la empresa dando clic en el candado de la barra de navegación.
-      .crd.crd--avatarHorizontal.py-4
+      .crd.crd--avatarHorizontal.py-4(data-aos="fade-right")
         .decorador-right(style="background-color: #B1DE19")
         .row.align-items-center
           .col-auto
             figure
-              img(src="@/assets/curso/temas/tema1/img-57.svg" alt="alt").img100
+              img(src="@/assets/curso/temas/tema1/img-57.svg" alt="Imagen decorativa").img100
           .col.pe-4
             h5 Certificados con validación de empresa ampliada
             p Con este SSL se aumenta el grado de confianza del usuario, para obtener un SS de este tipo es necesario validar de forma más profunda los datos de la empresa.
@@ -845,14 +845,14 @@
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-2.svg")
+          img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right" alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Cómo funciona un certificado de seguridad SSL TLS
               p Con el fin de tener mayor conocimiento sobre Qué y cómo funciona un certificado de seguridad SSL TLS, se invita a ver el siguiente video.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=tHhFQaurGAg" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=tHhFQaurGAg" target="_blank" data-aos="fade-left")
                 span.pe-4 Ver   
                 i.fas.fa-link
 </template>
