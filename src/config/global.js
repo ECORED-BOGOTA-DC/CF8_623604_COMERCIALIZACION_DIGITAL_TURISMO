@@ -138,14 +138,14 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: 'Analítica web 2.0',
       referencia:
         'Avinash, K. (2010). <em>Analítica web 2.0. El arte de analizar resultados y la ciencia de centrarse en el cliente.</em> Gestión 2000.',
       tipo: 'Libro',
       descarga: '/downloads/Analitica_Web_2.0_Avinash_Kaushik.pdf',
     },
     {
-      tema: '',
+      tema: 'SEO',
       referencia:
         'Romero, D. (s.f.). <em>Cómo aplicar SEO en tu estrategia de marketing online.</em> Editorial actualizada',
       tipo: 'Libro',
@@ -153,105 +153,105 @@ export default {
         '/downloads/Libro_Como_aplicar_el_SEO_en_tu_estrategia_de_marketing_online.pdf',
     },
     {
-      tema: '',
+      tema: 'Arquitectura web',
       referencia:
         'Publisuites. (2020). <em>Arquitectura web: cómo organizar bien los contenidos de tu web</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=VSXdCHSFHXM&t=30s',
     },
     {
-      tema: '',
+      tema: 'Sitios web',
       referencia:
         'UAM Costa Rica. (2019). <em>Tipos de sitios web</em> [video]. YouTube',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=nYCRkhAaTJU',
     },
     {
-      tema:
+      tema: 'Desarrollo web',
+      referencia:
         'Fazt. (2018), <em>Cómo empezar en desarrollo web</em> [video]. YouTube.',
-      referencia: '',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=s_lUd8mhPpQ',
     },
     {
-      tema: '',
+      tema: 'Creación de páginas web',
       referencia:
         'Programación fácil, SEO y marketing. (2018). <em>Cómo crear una página web en WordPress gratis 2021 (paso a paso)</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=4UF3xVuWBu0',
     },
     {
-      tema: '',
+      tema: 'Creación de páginas web',
       referencia:
         'SaintDoVals. (2019). <em>Cómo diseñar una página web - Adobe XD | paso a paso</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ZopuGotHk7k',
     },
     {
-      tema: '',
+      tema: 'Maquetado responsive',
       referencia:
         'Yoelvis Mulen {code}. (2020). <em>Maquetado responsive con CSS Grid | Diseño adaptativo</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=T4t00Hd3qZc',
     },
     {
-      tema: '',
+      tema: 'Tipos de contenido',
       referencia:
         'Instituto de Marketing Ágil. (2017). <em>Seis tipos de contenidos que se hacen más virales en Internet</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=7JYAeCyWSLo',
     },
     {
-      tema: '',
+      tema: 'Usabilidad web',
       referencia:
         'INESEM Business School. (2017). <em>Usabilidad web: ¿qué es y qué aporta al usuario? | MasterClass</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Y7nLeu4cY38',
     },
     {
-      tema: '',
+      tema: 'Microaprendizaje',
       referencia:
         'Educar Portal. (2019). <em>Microaprendizaje ¿Qué es la accesibilidad web?</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=gQIKQO41pME',
     },
     {
-      tema: '',
+      tema: 'Buscadores',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2011). <em>Buscadores</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=99G6_y2TZPo',
     },
     {
-      tema: '',
+      tema: 'SEO',
       referencia:
         'Juanjo Amengual. (2019). <em>¿Cómo posicionar en turismo SEO en turismo?</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=UPySDhEI0rU',
     },
     {
-      tema: '',
+      tema: 'Dominio y “hosting”',
       referencia:
         'Página de inicio. (2011). <em>¿Qué es un dominio y un hosting? ¡Explicado para principiantes!</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=W2Yrj0h52D4',
     },
     {
-      tema: '',
+      tema: 'certificado de seguridad SSL TLS',
       referencia:
         'Neothek. (2018). <em>Qué y cómo funciona un certificado de seguridad SSL TLS</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=tHhFQaurGAg',
     },
     {
-      tema: '',
+      tema: 'Analítica web',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2021). <em>¿Qué es la analítica web?</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=1pCDpRCmtxY',
     },
     {
-      tema: '',
+      tema: 'Analítica web',
       referencia:
         'Robles, F. (2020). <em>7 herramientas de analítica web que debes usar en tu sitio web 2020</em> [video]. YouTube.',
       tipo: 'Video',
@@ -290,13 +290,13 @@ export default {
     },
     {
       referencia:
-        'Capella, M. (2020). <em<Posicionamiento web o SEO: cómo posicionar tu página web en Google en 9 pasos</em>. Inboundcycle.',
+        'Capella, M. (2020). <em>Posicionamiento web o SEO: cómo posicionar tu página web en Google en 9 pasos</em>. Inboundcycle.',
       link:
         'https://www.inboundcycle.com/blog-de-inbound-marketing/como-posicionar-mi-web-5-pasos-para-ser-top-1-en-google',
     },
     {
       referencia:
-        'Coppola, M. (s.f.). <em>Diseño responsive: qué es, cómo funciona y cómo implementarlo</em>. Hubspot.',
+        'Coppola, M. (s.f.). <em>Qué es diseño responsive: características y ejemplos</em>. Hubspot.',
       link: 'https://blog.hubspot.es/marketing/diseno-responsive',
     },
     {
@@ -341,15 +341,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -359,28 +359,40 @@ export default {
         {
           nombre: 'Eddy Cárdenas',
           cargo: 'Experto temático',
-          centro: 'Centro de Comercio, Industria y Turismo',
+          centro: 'Centro de comercio, industria y turismo- Regional Quindío',
         },
         {
           nombre: 'Gloria Alexandra Orejarena Barrios',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+          cargo: 'Diseño instruccional',
+          centro: 'Centro de Gestión Industrial- Regional Distrito Capital',
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Asesora metodológica',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          cargo: 'Asesoría metodológica y pedagógica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable Equipo desarrollo curricular',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Julia Isabel Roberto',
-          cargo: 'Julia Isabel Roberto',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesoría metodológica y pedagógica',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Nelly Parra Guarín',
+          cargo: 'Adecuación instruccional',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -388,28 +400,22 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Yazmín Rocío Figueroa Pacheco',
+          cargo: 'Diseño web',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Jhon Edinson Castañeda Oviedo',
+          cargo: 'Desarrollo Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisual',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -417,22 +423,23 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación LMS',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Leyson Fabián Castaño Pérez',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
