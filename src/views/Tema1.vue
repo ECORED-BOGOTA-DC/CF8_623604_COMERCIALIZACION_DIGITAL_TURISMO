@@ -159,7 +159,7 @@
       img.col-lg-6.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema1/img-10.jpg' alt='Imagen decorativa' data-aos="fade-right")
       .col-lg-6.ps-lg-4(data-aos="fade-left")
         p La mayoría de las grandes empresas turísticas tienen un equipo de desarrollo web dedicado a diseñar y mantener su sitio web; sin embargo, en los últimos años organizaciones más pequeñas, emprendedores e incluso personas naturales del sector están utilizando sistemas de gestión de contenido como WordPress, Drupal y Joomla, para crear y editar sus propios sitios web utilizando un sitio web interfaz.
-        p En este sentido surge la inquietud sobre cómo iniciar a desarrollar una página web Pues bien, se invita a ver el siguiente video, en el que encontrará algunos tips importantes:
+        p En este sentido surge la inquietud sobre cómo iniciar a desarrollar una página web Pues bien, se invita a ver el siguiente video, en el que encontrará algunos <em>tips</em> importantes:
 
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
       .row.justify-content-around.align-items-center
@@ -236,7 +236,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Cómo crear una página web en WordPress gratis
-              p Con el fin de tener mayor conocimiento sobre ¿Cómo crear una página web en Wordpress? se invitamos a ver el siguiente video.
+              p Con el fin de tener mayor conocimiento sobre ¿Cómo crear una página web en Wordpress? lo invitamos a ver el siguiente video.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=4UF3xVuWBu0" target="_blank" data-aos="fade-left")
                 span Ingresar   
@@ -245,7 +245,7 @@
     .d-flex.mb-5(data-aos="flip-up")
       h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Estructura de la página web
     
-    p.mb-5(data-aos="fade-right") Una vez la empresa turística decide montar una página web es importante que conozca cuáles son los elementos básicos de una estructura web.  Se invita a ver en el siguiente recurso los elementos que hacen parte de la estructura de la página web (<em>Marketing</em>, 2017):
+    p.mb-5(data-aos="fade-right") Una vez la empresa turística decide montar una página web es importante que conozca cuáles son los elementos básicos de una estructura web.  Se invita a ver en el siguiente recurso los elementos que hacen parte de la estructura de la página web (Marketing, 2017):
 
     ImagenInfografica.color-acento-botones.mb-5.col-xl-8.col-lg-10.mx-auto(data-aos="fade-left")
       template(v-slot:imagen)
@@ -254,7 +254,7 @@
 
       .tarjeta.p-3(x="63.2%" y="20%" numero="+" style="background-color: #FFF7E3")
         .h5.mb-2 Cabecera <em style="font-weight: normal;">(Header)</em>
-        p Esta es la sección que se encuentra al inicio de la página, por este motivo debe ser atractiva. Contiene el logotipo o nombre de la página web y una imagen principal (<em>banner</em>) o un slider con varias fotografías que pasan automáticamente.
+        p Esta es la sección que se encuentra al inicio de la página, por este motivo debe ser atractiva. Contiene el logotipo o nombre de la página web y una imagen principal (<em>banner</em>) o un <em>slider</em> con varias fotografías que pasan automáticamente.
 
       .tarjeta.p-3(x="31.2%" y="42.3%" numero="+" style="background-color: #FFF7E3")
         .h5.mb-2 Contenido <em style="font-weight: normal;">(Body)</em>
@@ -304,7 +304,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Manual de <em>responsive web design</em>
-              p Con el fin de tener mayor conocimiento del tema puede revisar el manual, ingresando al <em>link.</em>
+              p Con el fin de tener mayor conocimiento del tema puede revisar el manual, ingresando al enlace.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://desarrolloweb.com/manuales/responsive-web-design.html" target="_blank" data-aos="fade-left")
                 span Ingresar   
@@ -326,7 +326,7 @@
         span Ventajas de la maqueta
       img.mb-5(src="@/assets/curso/temas/tema1/img-21.svg" data-aos="fade-left" alt='Figura que menciona las ventajas de la maqueta y se describen parte inferior.')
 
-    p.mb-5(data-aos="fade-right") Estimado aprendiz desea saber cómo desarrollar una página web en Adobe XD, se invitamos a ver el paso a paso en el siguiente video:
+    p.mb-5(data-aos="fade-right") Estimado aprendiz desea saber cómo desarrollar una página web en Adobe XD, lo invitamos a ver el paso a paso en el siguiente video:
 
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
       .row.justify-content-around.align-items-center
@@ -485,7 +485,7 @@
                   | Colocar menús de navegación en todas las páginas.
                 li.d-flex.mb-0
                   .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
-                  | No abusar de las ventanas emergentes (<em>pop-ups</em>).
+                  p.mb-0 No abusar de las ventanas emergentes (<em>pop-ups</em>).
                 li.d-flex.mb-0
                   .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D")
                   | Añadir un mapa del sitio web para guiar al usuario y a los rastreadores de Google.
@@ -698,7 +698,7 @@
         
         .row.justify-content-start.align-items-start.py-5
           .col-lg-5.mb-4.mb-lg-0.pt-4.pt-0.position-relative
-              h4.mb-4 Utilizar links gratuitos que lleven tráfico a la página web de la empresa turística
+              h4.mb-4 Utilizar <em>links</em> gratuitos que lleven tráfico a la página web de la empresa turística
               P Es conveniente que la empresa turística inicialmente incluya enlaces en redes sociales por medio de los comentarios en sitios web externos que lleven tráfico hacia el propio sitio web. Esto permite que Google valore ese tráfico como un punto extra a la hora de posicionar la página web.
 
           .col-6.col-lg-6.mx-auto

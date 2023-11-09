@@ -290,12 +290,6 @@ export default {
     },
     {
       referencia:
-        'Capella, M. (2020). <em>Posicionamiento web o SEO: cómo posicionar tu página web en Google en 9 pasos</em>. Inboundcycle.',
-      link:
-        'https://www.inboundcycle.com/blog-de-inbound-marketing/como-posicionar-mi-web-5-pasos-para-ser-top-1-en-google',
-    },
-    {
-      referencia:
         'Coppola, M. (s.f.). <em>Qué es diseño responsive: características y ejemplos</em>. Hubspot.',
       link: 'https://blog.hubspot.es/marketing/diseno-responsive',
     },
@@ -308,6 +302,12 @@ export default {
       referencia:
         'Iberdrola. (s.f.), <em>¿Qué es la accesibilidad web? El gran reto para conseguir un Internet para todos</em>. Iberdrola.',
       link: 'https://www.iberdrola.com/innovacion/que-es-accesibilidad-web',
+    },
+    {
+      referencia:
+        'Inboundcycle. (2020). <em>Posicionamiento web o SEO: cómo posicionar tu página web en Google en 9 pasos.</em>',
+      link:
+        'https://www.inboundcycle.com/blog-de-inbound-marketing/como-posicionar-mi-web-5-pasos-para-ser-top-1-en-google',
     },
     {
       referencia:

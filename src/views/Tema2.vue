@@ -270,7 +270,7 @@
               | Saber los códigos de respuesta que emite el servidor ante cada una de las URL.
             li.d-flex.mb-0
               .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D" data-aos="fade-right")
-              | La frecuencia de rastreo de los robots (<em>bots</em>) por la web y cuáles son las URL que más se rastrean.
+              p.mb-0 La frecuencia de rastreo de los robots (<em>bots</em>) por la web y cuáles son las URL que más se rastrean.
             li.d-flex.mb-0
               .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D" data-aos="fade-right")
               | Las URL de tipo “parche” o URL que no se quiere que se indexen; pero que se necesita que estén visibles en la web debido a que ofrecen algún tipo de servicio al usuario.
@@ -292,7 +292,7 @@
         .container-titulo.mb-4
           img(src="@/assets/curso/temas/tema2/img-20.svg" style="max-width: 78px; width: 78px; bottom: -.9rem" alt="Imagen decorativa" data-aos="fade-right")
           h3 User-centric
-        p este sistema de medición se centra en el usuario sobre una muestra real, por lo general de datos sociodemográficos. La empresa encargada de hacer la medición realiza entrevistas para definir el perfil del usuario del sitio web de comercialización de experiencias turísticas. Posteriormente, instala un <em>software</em> en el dispositivo de los usuarios de la muestra y cada vez que el usuario accede a su dispositivo introduce una clave de acceso y la información llega a una base de datos en donde se clasifica. La empresa turística los puede utilizar para conocer el perfil de los usuarios a los que dirige la estrategia de contenido digital.
+        p Este sistema de medición se centra en el usuario sobre una muestra real, por lo general de datos sociodemográficos. La empresa encargada de hacer la medición realiza entrevistas para definir el perfil del usuario del sitio web de comercialización de experiencias turísticas. Posteriormente, instala un <em>software</em> en el dispositivo de los usuarios de la muestra y cada vez que el usuario accede a su dispositivo introduce una clave de acceso y la información llega a una base de datos en donde se clasifica. La empresa turística los puede utilizar para conocer el perfil de los usuarios a los que dirige la estrategia de contenido digital.
       img.ps-lg-2.order-1.order-lg-2.col-lg-6.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-21.jpg" style="max-width: 610px" alt="Imagen decorativa" data-aos="fade-left")
 
     .d-flex.mb-5(data-aos="flip-up")
