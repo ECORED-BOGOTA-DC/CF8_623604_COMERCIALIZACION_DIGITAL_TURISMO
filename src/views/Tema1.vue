@@ -236,7 +236,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Cómo crear una página web en WordPress gratis
-              p Con el fin de tener mayor conocimiento sobre ¿Cómo crear una página web en Wordpress? lo invitamos a ver el siguiente video.
+              p Con el fin de tener mayor conocimiento sobre ¿Cómo crear una página web en Wordpress? Lo invitamos a ver el siguiente video.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=4UF3xVuWBu0" target="_blank" data-aos="fade-left")
                 span Ingresar   
@@ -586,7 +586,7 @@
 
     figure.col-xl-10.mx-auto.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/N91a6cGFdxk?si=rJkKl2tG7kK2gR0B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .tarjeta.color-primario.p-3.col-xl-10.mx-auto.mb-5
       .row.justify-content-around.align-items-center

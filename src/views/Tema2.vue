@@ -98,7 +98,7 @@
               | Qué páginas son las que menos funcionan.
             li.d-flex.mb-0
               .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D" data-aos="fade-right")
-              | Detalle de datos de la campaña, <em>email marketing</em> o redes sociales.
+              p.mb-0 Detalle de datos de la campaña, <em>email marketing</em> o redes sociales.
             li.d-flex.mb-0
               .me-2.mt-1.mb-auto(style="min-width: 14px; min-height: 14px; border-radius: 50%; border: 5px solid #EB6F2D" data-aos="fade-right")
               | Qué búsqueda de palabras clave han dado como resultado una visita.
@@ -254,7 +254,7 @@
     .d-flex.flex-wrap.mb-4
       img.pe-lg-2.col-lg-6.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-16.jpg" style="max-width: 610px" alt="Imagen decorativa" data-aos="fade-right")
       .col-lg-6.ps-lg-2(data-aos="fade-left")
-        p El análisis log es un método que se utiliza para ver cómo los robots (<em>bots</em>) de los motores de búsqueda realizan el rastreo de la página web de comercialización de experiencias turísticas y le permite a la empresa identificar oportunidades de mejora en la estrategia de SEO.
+        p El análisis <em>log</em> es un método que se utiliza para ver cómo los robots (<em>bots</em>) de los motores de búsqueda realizan el rastreo de la página web de comercialización de experiencias turísticas y le permite a la empresa identificar oportunidades de mejora en la estrategia de SEO.
         p Los <em>logs</em> son ficheros que registran la información sobre la actividad que ha recibido el servidor en el que está alojada la página web de la empresa turística, por ejemplo, la IP desde la que se trata de acceder, a qué parte de la web trataron de acceder, el código de respuesta que les envió el servidor, etc.
         p A continuación, se presentan algunos de los aspectos de SEO que puede identificar la empresa turística cuando realiza el análisis de <em>logs</em>:
     
