@@ -709,12 +709,19 @@
           .col-lg-6.mb-4.mb-lg-0.pt-4.pt-0.position-relative
               h4.mb-4 Indexar lo que se quiera posicionar
               P La empresa turística debe definir el contenido que no quiere posicionar y colocarlo en los buscadores en no indexan, para evitar que el robot de Google pierda el tiempo en secciones de la página que no son de su interés, como por ejemplo, las páginas de contacto o política de privacidad.
+
+          .col-6.col-lg-6.mx-auto
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-47.svg' style="max-width: 344px" alt='Imagen decorativa')
+        
+        .row.justify-content-start.align-items-start.py-5
+          .col-lg-6.mb-4.mb-lg-0.pt-4.pt-0.position-relative
               h5.mb-4 Fidelizar usuarios y conseguir tráfico recurrente
               P Fidelizar a usuarios, conseguir suscriptores y haga que vuelvan una y otra vez a su web. De este modo conseguirá visitas recurrentes y este factor "<em>branding</em>" es una de las cosas más premiadas por los buscadores hoy en día.
 
           .col-6.col-lg-6.mx-auto
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/img-47.svg' style="max-width: 344px" alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-59.svg' style="max-width: 344px" alt='Imagen decorativa')
 
     p.mb-5(data-aos="fade-right") Estimado aprendiz, para profundizar sobre la aplicación de SEO en una estrategia de <em>marketing online</em> puede revisar el siguiente material:
 
