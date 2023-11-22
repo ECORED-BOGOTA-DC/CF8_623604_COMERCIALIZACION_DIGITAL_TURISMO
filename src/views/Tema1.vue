@@ -336,7 +336,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Como diseñar una página web - Adobe XD | paso a paso
-              p Con el fin de tener mayor conocimiento sobre cómo crear una página web en Adobe XD se invita a ver el siguiente video.
+              p Con el fin de tener mayor conocimiento sobre cómo crear una página web en Wordpress, lo invitamos a ver el siguiente video.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=ZopuGotHk7k" target="_blank" data-aos="fade-left")
                 span Ingresar   

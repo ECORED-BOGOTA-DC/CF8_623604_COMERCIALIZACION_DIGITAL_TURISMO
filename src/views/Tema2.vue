@@ -300,13 +300,13 @@
     
     .container-100.d-flex.flex-wrap.align-items-center.py-4.mb-5(style="background-color: #E8F5FE; box-shadow: 0 3px 6px 3px #00000010")
       img(src="@/assets/curso/temas/tema1/img-28.svg" style="max-width: 85px" alt="Imagen decorativa" data-aos="fade-right")
-      p.col-md.mb-0.ps-md-4(data-aos="fade-left") Las <em>Cookies</em> son archivos de datos creados y enviados por el sitio web de comercialización de experiencias turísticas y que se almacenan en el navegador del usuario. Con esto, el sitio web puede consultar la actividad previa del navegador y detectar las páginas visitadas por el usuario.
-    p.mb-5(data-aos="fade-right") A continuación, se presentan las principales funciones para las que la empresa turística puede aprovechar <em>Cookies</em>:
+      p.col-md.mb-0.ps-md-4(data-aos="fade-left") Las <em>cookies</em> son archivos de datos creados y enviados por el sitio web de comercialización de experiencias turísticas y que se almacenan en el navegador del usuario. Con esto, el sitio web puede consultar la actividad previa del navegador y detectar las páginas visitadas por el usuario.
+    p.mb-5(data-aos="fade-right") A continuación, se presentan las principales funciones para las que la empresa turística puede aprovechar <em>cookies</em>:
 
     .container-100.d-flex.flex-wrap.mb-3.pt-5(style="background: linear-gradient(180deg, rgba(233,246,252,1) 0%, rgba(255,255,255,1) 100%);")
       .titulo-sexto.color-acento-contenido(data-aos="fade-right")
         h5 Figura 14.
-        span Uso de cookies en empresas turísticas
+        span Uso de <em>cookies</em> en empresas turísticas
       .col-xl-8.mx-auto.mb-5
         img(src="@/assets/curso/temas/tema2/img-22.svg" alt="Figura que menciona los principales usos de cookies en la empresa turística y se describen en la parte inferior." data-aos="fade-left")
 
