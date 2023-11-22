@@ -760,7 +760,7 @@
         .tarjeta.p-4(style="background-color: #FFF4D9")
           img.mb-2(src="@/assets/curso/temas/tema1/img-50.svg" style="width: 149px;" alt="Imagen decorativa" data-aos="flip-up")
           h3.mb-4(data-aos="fade-right") <em>Cloud hosting</em> 
-          p.mb-0(data-aos="fade-left") Es la nueva tecnología que  reemplaza el modelo tradicional de <em>hosting</em>. Tiene asignación dedicada de <em>hardware</em> por lo cual el cliente no se afecta por malos vecinos. Es una tecnología que SI permite escalabilidad.
+          p.mb-0(data-aos="fade-left") Es la nueva tecnología que  reemplaza el modelo tradicional de <em>hosting</em>. Tiene asignación dedicada de <em>hardware</em> por lo cual el cliente no se afecta por malos vecinos. Es una tecnología que permite escalabilidad.
       
       .col-xl-4.col-md-6.px-md-2.mb-3
         .tarjeta.p-4(style="background-color: #FFF4D9")

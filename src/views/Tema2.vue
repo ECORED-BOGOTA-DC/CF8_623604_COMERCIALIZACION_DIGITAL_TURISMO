@@ -286,7 +286,7 @@
     .d-flex.flex-wrap.pb-5.mb-5(style="border-bottom: 2px dashed #707070")
       img.col-lg-6.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-19.jpg" style="max-width: 610px" alt="Imagen decorativa" data-aos="fade-right")
       .col-lg-6.ps-lg-4(data-aos="fade-left")
-        p Es un sistema de medición centrado en la audiencia del sitio web de comercialización de experiencias turísticas. Con esta información la empresa puede conocer el número de visitas, las páginas vistadas, el usuario y su comportamiento en la página web. Estos datos son importantes para la empresa turística para generar estrategias digitales porque entre más se conoce el comportamiento de los visitantes del sitio web se puede crear contenido más atractivo para atraer más usuarios.
+        p Es un sistema de medición centrado en la audiencia del sitio web de comercialización de experiencias turísticas. Con esta información la empresa puede conocer el número de visitas, las páginas visitadas, el usuario y su comportamiento en la página web. Estos datos son importantes para la empresa turística para generar estrategias digitales porque entre más se conoce el comportamiento de los visitantes del sitio web se puede crear contenido más atractivo para atraer más usuarios.
     .d-flex.flex-wrap.mb-5
       .col-lg-6.pe-lg-2.order-2.order-lg-1(data-aos="fade-right")
         .container-titulo.mb-4
