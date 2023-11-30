@@ -169,7 +169,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Cómo empezar en desarrollo web
-              p Con el fin de tener mayor conocimiento sobre ¿cómo iniciar a desarrollar una página web?, se invita a ver el siguiente video.
+              p Con el fin de tener mayor conocimiento sobre cómo iniciar a desarrollar una página web, lo invitamos a ver el siguiente video.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=s_lUd8mhPpQ" target="_blank" data-aos="fade-left")
                 span Ingresar  
@@ -236,7 +236,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Cómo crear una página web en WordPress gratis
-              p Con el fin de tener mayor conocimiento sobre ¿Cómo crear una página web en Wordpress? Lo invitamos a ver el siguiente video.
+              p Con el fin de tener mayor conocimiento sobre cómo crear una página web en Wordpress, lo invitamos a ver el siguiente video.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=4UF3xVuWBu0" target="_blank" data-aos="fade-left")
                 span Ingresar   
