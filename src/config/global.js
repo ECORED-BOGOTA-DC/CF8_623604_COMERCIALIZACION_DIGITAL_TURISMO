@@ -138,13 +138,6 @@ export default {
   },
   complementario: [
     {
-      tema: 'Analítica web 2.0',
-      referencia:
-        'Avinash, K. (2010). <em>Analítica web 2.0. El arte de analizar resultados y la ciencia de centrarse en el cliente.</em> Gestión 2000.',
-      tipo: 'Libro',
-      descarga: '/downloads/Analitica_Web_2.0_Avinash_Kaushik.pdf',
-    },
-    {
       tema: 'SEO',
       referencia:
         'Romero, D. (s.f.). <em>Cómo aplicar SEO en tu estrategia de marketing online.</em> Editorial actualizada',
@@ -157,7 +150,7 @@ export default {
       referencia:
         'Publisuites. (2020). <em>Arquitectura web: cómo organizar bien los contenidos de tu web</em> [video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=VSXdCHSFHXM&t=30s',
+      link: 'https://www.youtube.com/watch?v=VSXdCHSFHXM',
     },
     {
       tema: 'Sitios web',

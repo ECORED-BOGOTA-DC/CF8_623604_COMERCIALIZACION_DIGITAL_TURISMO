@@ -154,7 +154,7 @@
       .col-lg-6.ps-lg-4(data-aos="fade-left")
         p.mb-5 Para cualquier empresa turística es fundamental tener un sitio web con un excelente desempeño en donde pueda mostrar su información y se pueda interactuar con los usuarios. Por esto es necesario conocer sobre desarrollo web.
         .cajon.color-primario.p-4.mb-4(style="background-color: #FFF7E5")
-          p.mb-0 El desarrollo web se refiere a la construcción, creación y mantenimiento de sitios web. Incluye aspectos como el diseño web, la publicación web, la programación web y la base de datos gestión Techlib.
+          p.mb-0 El desarrollo web se refiere a la construcción, creación y mantenimiento de sitios web. Incluye aspectos como el diseño web, la publicación web, la programación web y la base de datos gestión. Techlib.
     .d-flex.flex-wrap.mb-5
       img.col-lg-6.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema1/img-10.jpg' alt='Imagen decorativa' data-aos="fade-right")
       .col-lg-6.ps-lg-4(data-aos="fade-left")
@@ -336,7 +336,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0(data-aos="flip-up")
               h3 Como diseñar una página web - Adobe XD | paso a paso
-              p Con el fin de tener mayor conocimiento sobre cómo crear una página web en Wordpress, lo invitamos a ver el siguiente video.
+              p Con el fin de tener mayor conocimiento sobre cómo crear una página web en Adobe XD, lo invitamos a ver el siguiente video.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=ZopuGotHk7k" target="_blank" data-aos="fade-left")
                 span Ingresar   
@@ -601,7 +601,7 @@
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=99G6_y2TZPo" target="_blank" data-aos="fade-left")
                 span.pe-4 Ver   
                 i.fas.fa-link
-    p.mb-5(data-aos="fade-right") A continuación, se presentan algunos consejos para mejorar el posicionamiento del sitio de web de comercialización de experiencias turísticas en Google (Capella, 2020):
+    p.mb-5(data-aos="fade-right") A continuación, se presentan algunos consejos para mejorar el posicionamiento del sitio de web de comercialización de experiencias turísticas en Google.
 
     .tarjeta.px-5.py-3.mb-5(style="background-color: #FFF7E3")
       SlyderA(tipo="b" data-aos="fade-left")

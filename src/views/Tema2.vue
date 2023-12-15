@@ -174,8 +174,8 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 9.
       span Herramientas de experimentación y <em>testing</em>
-    img.mb-5(src="@/assets/curso/temas/tema2/img-9.svg" alt="Figura que menciona cuatro herramientas de experimentación y testing, las cuales on: 1. Google Website Optimizer 2. Test&Target de Omniture 3. Optimost de Autonomy 4. SiteSpect" data-aos="fade-left")
-
+    img.mb-5(src="@/assets/curso/temas/tema2/img-9.svg" alt="Herramientas de experimentación y “testing” 1. Google website optimizar. 2. Test & target de Omniture. 3. Optimost de Autonomy. 4. SiteSpect" data-aos="fade-left")
+    
     .d-flex.mb-5(data-aos="flip-up")
       h3.py-2.px-4(style="background-color: #B6E1FD; border-radius: 50px") Voz del cliente (VOC)
     
@@ -326,7 +326,7 @@
       div(style="background-color: #FFB338; border-top-right-radius: 60px")
         .d-flex.flex-wrap.align-items-center.col-xl-11.mx-auto.p-4.p-lg-0
           .col-lg.ps-lg-4.pe-lg-5.mb-0.order-2.order-lg-1(data-aos="fade-right")
-            p Adicionalmente, puede utilizar el <em>remarketing</em> o <em>retargeting</em> para enviar nuevamente información de mercadeo para una persona que demostró interés en el sitio web. Las <em>cookies</em> recopilan información sobre los usuarios y hacen que reciba información sobre el sitio web de comercialización de experiencias turísticas mediante <em>cookies</em> de terceros. Estos son algunas de las ventajas de utilizar <em>cookies</em> en las estrategias de mercadeo digital (Content, 2019):
+            p Adicionalmente, puede utilizar el <em>remarketing</em> o <em>retargeting</em> para enviar nuevamente información de mercadeo para una persona que demostró interés en el sitio web. Las <em>cookies</em> recopilan información sobre los usuarios y hacen que reciba información sobre el sitio web de comercialización de experiencias turísticas mediante <em>cookies</em> de terceros. Estos son algunas de las ventajas de utilizar <em>cookies</em> en las estrategias de mercadeo digital:
           img.mb-4.mb-lg-auto.mx-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema2/img-24.png" style="max-width: 336px; margin-top: -5%" alt="Imagen decorativa" data-aos="fade-left")
 
     .container-100.d-flex.flex-wrap.mb-5.pt-5(style="background: linear-gradient(0deg, rgba(233,246,252,1) 0%, rgba(255,255,255,1) 100%);")
@@ -350,7 +350,7 @@
               h3 Tabla de herramientas analítica web
               p Con el fin de tener mayor conocimiento se invita a descargar documento word llamado 2.1.10. Tabla herramientas de analítica web.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/OKEst_2.1.10_tabla_herramientas_de_analitica_web.docx')" target="_blank" data-aos="fade-right")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Tabla_herramientas_de_analitica_web.pdf')" target="_blank" data-aos="fade-right")
                 span.pe-4 Ver   
                 i.fas.fa-link
     
@@ -364,7 +364,7 @@
               h3 Libro analítica web 2.0
               p Con el fin de tener mayor conocimiento se invita a descargar libro Analítica Web 2.0 Avinash Kaushik
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/Analitica_Web_2.0_Avinash_Kaushik.pdf')" target="_blank" data-aos="fade-right")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Libro_Analitica_Web_2.0_Avinash_Kaushik.pdf')" target="_blank" data-aos="fade-right")
                 span.pe-4 Ver   
                 i.fas.fa-link
     
